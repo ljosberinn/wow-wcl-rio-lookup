@@ -1,3 +1,4 @@
+/* eslint-disable unicorn/numeric-separators-style */
 const createTimer = (initialTime: number): [number, number, number] => [
   initialTime * 60 * 1000,
   initialTime * 60 * 1000 * 0.8,

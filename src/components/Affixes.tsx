@@ -1,6 +1,6 @@
 import { chakra, HStack } from "@chakra-ui/react";
 
-import type { SanitizedWclDataset } from "../pages/api/lookup";
+import type { SanitizedWclDataset } from "../utils/lookup";
 
 const affixIconMap: Record<number, { name: string; icon: string }> = {
   121: {

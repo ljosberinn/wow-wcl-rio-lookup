@@ -1,7 +1,7 @@
 import { chakra, Table, Th, Tr, HStack, Link, Td } from "@chakra-ui/react";
-import { memo } from "react";
+import React, { memo } from "react";
 
-import type { SanitizedWclDataset } from "../pages/api/lookup";
+import type { SanitizedWclDataset } from "../utils/lookup";
 import { Affixes } from "./Affixes";
 import { Chests } from "./Chests";
 
@@ -38,7 +38,7 @@ export function KeystoneTable({ reports }: KeystoneTableProps): JSX.Element {
       <tbody>
         {reports.map((report) => {
           return (
-            <TableRow key={report.reportID + report.fightID} {...report} />
+            <TableRow key={`${report.reportID}${report.fightID}`} {...report} />
           );
         })}
       </tbody>

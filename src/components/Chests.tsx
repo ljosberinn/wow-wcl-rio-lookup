@@ -2,7 +2,7 @@ import { Icon, HStack } from "@chakra-ui/react";
 import React from "react";
 import { GiOpenChest, GiLockedChest } from "react-icons/gi";
 
-import type { SanitizedWclDataset } from "../pages/api/lookup";
+import type { SanitizedWclDataset } from "../utils/lookup";
 
 const chests = Array.from({ length: 3 });
 

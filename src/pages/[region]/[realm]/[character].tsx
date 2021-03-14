@@ -13,6 +13,7 @@ import {
 import type { GetStaticPaths, GetStaticProps } from "next";
 import { useRouter } from "next/router";
 
+import dummyData from "../../../../devData.json";
 import { Header } from "../../../components/Header";
 import { KeystoneTable } from "../../../components/KeystoneTable";
 import { Settings } from "../../../components/Settings";
@@ -22,7 +23,6 @@ import { useSettings } from "../../../hooks/useSettings";
 import { dungeons } from "../../../utils/dungeons";
 import type { CharacterData } from "../../../utils/lookup";
 import { lookup } from "../../../utils/lookup";
-import dummyData from "../../../../devData.json";
 
 type CharacterProps = {
   lastSync: number;
