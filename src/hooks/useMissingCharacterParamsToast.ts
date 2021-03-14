@@ -8,7 +8,7 @@ export function useMissingCharacterParamsToast({
   character,
   realm,
   region,
-}: MaybeCharacter): void {
+}: MaybeCharacter = {}): void {
   const { push, isReady, isFallback } = useRouter();
 
   const toast = useToast({
