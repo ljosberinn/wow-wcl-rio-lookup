@@ -151,6 +151,6 @@ export const getStaticProps: GetStaticProps<
       characterParams,
       lastSync: Date.now(),
     },
-    revalidate: 60 * 60 * 8,
+    revalidate: 60 * 60 * 2,
   };
 };
