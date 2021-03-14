@@ -70,7 +70,7 @@ export default function Character({
         </TabList>
         <TabPanels>
           {hasNoLogs ? (
-            <Alert status="error" mt={4}>
+            <Alert status="error" my={4}>
               <AlertIcon />
               <AlertTitle mr={2}>No logs found!</AlertTitle>
               <AlertDescription>
@@ -89,7 +89,7 @@ export default function Character({
               });
 
               return (
-                <TabPanel key={dungeonID}>
+                <TabPanel key={dungeonID} mb={4}>
                   <KeystoneTable reports={relevantReports} />
                 </TabPanel>
               );

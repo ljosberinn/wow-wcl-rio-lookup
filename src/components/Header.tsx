@@ -34,7 +34,7 @@ export function Header({
           {capitalize(character)} @ {capitalize(realm)}-{region.toUpperCase()}
         </Text>
         <Text>
-          {active_spec_name} {race} {className}
+          {race} {active_spec_name} {className}
         </Text>
       </Flex>
 
