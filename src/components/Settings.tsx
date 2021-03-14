@@ -35,7 +35,7 @@ export function Settings({
             <NumberInput
               name="keystone-level"
               value={minKeystoneLevel}
-              min={10}
+              min={15}
               onChange={handleMinKeystoneLevelChange}
               disabled={hasNoLogs}
               size="sm"

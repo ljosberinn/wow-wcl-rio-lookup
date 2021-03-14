@@ -371,11 +371,11 @@ const getParses = async (
               (fight) => fight.id === fightID
             );
 
-            // skip broken requests as well as logs for keys under level 10
+            // skip broken requests as well as logs for keys under level 15
             if (
               !fight ||
               !fight.keystoneLevel ||
-              fight.keystoneLevel < 10 ||
+              fight.keystoneLevel < 15 ||
               !fight.completionTime
             ) {
               return null;
