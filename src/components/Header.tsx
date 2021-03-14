@@ -1,7 +1,7 @@
 import { chakra, Flex, Tag, Text, VStack } from "@chakra-ui/react";
 
-import type { CharacterData } from "../hooks/useCharacter";
 import type { MaybeCharacter } from "../hooks/useCharacterParams";
+import type { CharacterData } from "../utils/lookup";
 
 type HeaderProps = CharacterData & MaybeCharacter;
 

@@ -1,4 +1,4 @@
-import { chakra, Table, Th, Tr, HStack, Link, Td } from "@chakra-ui/react";
+import { chakra, Table, Th, Tr, Link, Td } from "@chakra-ui/react";
 import React, { memo } from "react";
 
 import type { SanitizedWclDataset } from "../utils/lookup";
