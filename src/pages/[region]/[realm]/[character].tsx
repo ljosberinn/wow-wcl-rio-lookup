@@ -74,7 +74,7 @@ export default function Character({
               <AlertIcon />
               <AlertTitle mr={2}>No logs found!</AlertTitle>
               <AlertDescription>
-                This character does not have any Mythic+ Logs.
+                This character does not have any (public) Mythic+ Logs or WCL is rate-limiting. Try later again.
               </AlertDescription>
             </Alert>
           ) : (
@@ -151,6 +151,6 @@ export const getStaticProps: GetStaticProps<
       characterParams,
       lastSync: Date.now(),
     },
-    revalidate: 60 * 60 * 2,
+    revalidate: 60 * 60 * 1,
   };
 };
