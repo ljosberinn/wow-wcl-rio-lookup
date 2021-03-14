@@ -9,29 +9,34 @@ import {
   AlertTitle,
   AlertDescription,
   TabPanel,
-  Divider,
 } from "@chakra-ui/react";
 import type { GetStaticPaths, GetStaticProps } from "next";
 import { useRouter } from "next/router";
-import { Header } from "../../../components/Header";
 
+import { Header } from "../../../components/Header";
 import { KeystoneTable } from "../../../components/KeystoneTable";
 import { Settings } from "../../../components/Settings";
-import { useCharacter } from "../../../hooks/useCharacter";
 import type { MaybeCharacter } from "../../../hooks/useCharacterParams";
-import { useCharacterParams } from "../../../hooks/useCharacterParams";
 import { useMissingCharacterParamsToast } from "../../../hooks/useMissingCharacterParamsToast";
 import { useSettings } from "../../../hooks/useSettings";
 import { dungeons } from "../../../utils/dungeons";
+import type { CharacterData } from "../../../utils/lookup";
+import { lookup } from "../../../utils/lookup";
+import dummyData from "../../../../devData.json";
 
-type CharacterProps = Required<MaybeCharacter>;
+type CharacterProps = {
+  lastSync: number;
+  characterParams: Required<MaybeCharacter>;
+  data: CharacterData | null;
+};
 
-export default function Character(props: CharacterProps): JSX.Element {
-  const characterParams = useCharacterParams(props);
+export default function Character({
+  data,
+  characterParams,
+  lastSync,
+}: CharacterProps): JSX.Element {
   useMissingCharacterParamsToast(characterParams);
-
   const { isFallback } = useRouter();
-  const data = useCharacter(characterParams);
   const settings = useSettings();
 
   if (isFallback || !data) {
@@ -92,11 +97,18 @@ export default function Character(props: CharacterProps): JSX.Element {
           )}
         </TabPanels>
       </Tabs>
+
+      <footer>
+        last sync: {new Date(lastSync).toLocaleString()} - next sync possible at{" "}
+        {new Date(lastSync + 8 * 60 * 60 * 1000).toLocaleString()}
+      </footer>
     </>
   );
 }
 
-export const getStaticPaths: GetStaticPaths<CharacterProps> = async () => {
+export const getStaticPaths: GetStaticPaths<
+  Required<MaybeCharacter>
+> = async () => {
   return {
     fallback: true,
     paths: [
@@ -126,13 +138,19 @@ export const getStaticProps: GetStaticProps<
   }
 
   const { region, realm, character } = context.params;
+  const characterParams = { region, realm, character };
+
+  const data =
+    process.env.NODE_ENV === "development"
+      ? (dummyData as CharacterProps["data"])
+      : await lookup(characterParams);
 
   return {
     props: {
-      realm,
-      character,
-      region,
+      data,
+      characterParams,
+      lastSync: Date.now(),
     },
-    revalidate: 60 * 60 * 4,
+    revalidate: 60 * 60 * 8,
   };
 };

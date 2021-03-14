@@ -29,14 +29,14 @@
           "affixes": [9, 6, 14, 121]
         },
         {
-          "dps": 3389,
-          "hps": 2795,
-          "deaths": 1,
+          "dps": 3909,
+          "hps": 2826,
+          "deaths": 2,
           "keyLevel": 20,
-          "inTime": 0,
-          "reportID": "nqrLhBXH6AfC4NdM",
-          "fightID": 34,
-          "affixes": [9, 6, 14, 121]
+          "inTime": 1,
+          "reportID": "bZv6m1ANXkgyDHad",
+          "fightID": 18,
+          "affixes": [10, 11, 3, 121]
         },
         {
           "dps": 3427,
@@ -49,24 +49,24 @@
           "affixes": [10, 11, 3, 121]
         },
         {
-          "dps": 3942,
-          "hps": 2850,
-          "deaths": 2,
+          "dps": 3389,
+          "hps": 2795,
+          "deaths": 1,
           "keyLevel": 20,
-          "inTime": 1,
-          "reportID": "CRXjFQPY9czLvx6A",
-          "fightID": 19,
-          "affixes": [10, 11, 3, 121]
+          "inTime": 0,
+          "reportID": "nqrLhBXH6AfC4NdM",
+          "fightID": 34,
+          "affixes": [9, 6, 14, 121]
         },
         {
-          "dps": 3926,
-          "hps": 2470,
+          "dps": 3462,
+          "hps": 2508,
           "deaths": 0,
           "keyLevel": 19,
-          "inTime": 0,
-          "reportID": "FdRMZv4jLVaK6xCN",
-          "fightID": 12,
-          "affixes": [10, 123, 3, 121]
+          "inTime": 1,
+          "reportID": "ZQ7kw8tJDxbRpGMV",
+          "fightID": 7,
+          "affixes": [10, 122, 124, 121]
         },
         {
           "dps": 3690,
@@ -74,9 +74,19 @@
           "deaths": 1,
           "keyLevel": 18,
           "inTime": 1,
-          "reportID": "LBQC39znR8VDhcm4",
-          "fightID": 1,
+          "reportID": "NVZndMKc7jJr6GpF",
+          "fightID": 14,
           "affixes": [10, 8, 12, 121]
+        },
+        {
+          "dps": 3770,
+          "hps": 2134,
+          "deaths": 1,
+          "keyLevel": 18,
+          "inTime": 1,
+          "reportID": "mq2wJXgQPtRDkF7Y",
+          "fightID": 4,
+          "affixes": [10, 123, 3, 121]
         },
         {
           "dps": 2987,
@@ -84,18 +94,8 @@
           "deaths": 5,
           "keyLevel": 17,
           "inTime": 0,
-          "reportID": "xCL2tVdF87jPZ9qw",
-          "fightID": 5,
-          "affixes": [10, 8, 14, 121]
-        },
-        {
-          "dps": 3132,
-          "hps": 1808,
-          "deaths": 4,
-          "keyLevel": 17,
-          "inTime": 0,
-          "reportID": "T4jk9prQBhXaWPbC",
-          "fightID": 5,
+          "reportID": "t6fmkvQTNgFxqP7Z",
+          "fightID": 4,
           "affixes": [10, 8, 14, 121]
         },
         {
@@ -104,19 +104,29 @@
           "deaths": 4,
           "keyLevel": 17,
           "inTime": 0,
-          "reportID": "t6fmkvQTNgFxqP7Z",
-          "fightID": 2,
+          "reportID": "xCL2tVdF87jPZ9qw",
+          "fightID": 3,
           "affixes": [10, 8, 14, 121]
         },
         {
-          "dps": 3674,
-          "hps": 2186,
-          "deaths": 1,
+          "dps": 3132,
+          "hps": 1807,
+          "deaths": 4,
           "keyLevel": 17,
-          "inTime": 1,
-          "reportID": "mq2wJXgQPtRDkF7Y",
-          "fightID": 2,
-          "affixes": [10, 123, 3, 121]
+          "inTime": 0,
+          "reportID": "x3dZmphLvN8QPFV6",
+          "fightID": 4,
+          "affixes": [10, 8, 14, 121]
+        },
+        {
+          "dps": 2931,
+          "hps": 1821,
+          "deaths": 4,
+          "keyLevel": 16,
+          "inTime": 0,
+          "reportID": "W9THJMLk26vcdQC7",
+          "fightID": 4,
+          "affixes": [10, 8, 14, 121]
         },
         {
           "dps": 3005,
@@ -139,16 +149,6 @@
           "affixes": [10, 123, 12, 121]
         },
         {
-          "dps": 3698,
-          "hps": 2139,
-          "deaths": 0,
-          "keyLevel": 13,
-          "inTime": 2,
-          "reportID": "bK9pHBmkGVaw6L2t",
-          "fightID": 1,
-          "affixes": [10, 8, 12, 121]
-        },
-        {
           "dps": 3310,
           "hps": 1708,
           "deaths": 0,
@@ -164,53 +164,43 @@
       12285,
       [
         {
+          "dps": 2724,
+          "hps": 2179,
+          "deaths": 2,
+          "keyLevel": 21,
+          "inTime": 0,
+          "reportID": "y96gVJpZvNLMxfXq",
+          "fightID": 16,
+          "affixes": [10, 11, 3, 121]
+        },
+        {
+          "dps": 2444,
+          "hps": 2220,
+          "deaths": 4,
+          "keyLevel": 21,
+          "inTime": 0,
+          "reportID": "CKpQBngvFmhM3j8f",
+          "fightID": 2,
+          "affixes": [10, 11, 3, 121]
+        },
+        {
+          "dps": 2772,
+          "hps": 2587,
+          "deaths": 2,
+          "keyLevel": 21,
+          "inTime": 0,
+          "reportID": "mC96bfpKa24NcLDG",
+          "fightID": 21,
+          "affixes": [9, 6, 14, 121]
+        },
+        {
           "dps": 2499,
           "hps": 2097,
           "deaths": 1,
           "keyLevel": 21,
           "inTime": 0,
-          "reportID": "zBDaJ6LAhpPNgcn8",
-          "fightID": 11,
-          "affixes": [10, 8, 12, 121]
-        },
-        {
-          "dps": 2773,
-          "hps": 2587,
-          "deaths": 2,
-          "keyLevel": 21,
-          "inTime": 0,
-          "reportID": "vznGJpLqcbXBH6Nh",
-          "fightID": 4,
-          "affixes": [9, 6, 14, 121]
-        },
-        {
-          "dps": 2548,
-          "hps": 2076,
-          "deaths": 1,
-          "keyLevel": 20,
-          "inTime": 1,
-          "reportID": "fWZR3njYcKGVq6QC",
-          "fightID": 14,
-          "affixes": [10, 8, 12, 121]
-        },
-        {
-          "dps": 2568,
-          "hps": 2134,
-          "deaths": 1,
-          "keyLevel": 20,
-          "inTime": 1,
-          "reportID": "tqaRkmxZ6Fr3W1LM",
-          "fightID": 2,
-          "affixes": [10, 8, 12, 121]
-        },
-        {
-          "dps": 2598,
-          "hps": 2188,
-          "deaths": 2,
-          "keyLevel": 20,
-          "inTime": 1,
-          "reportID": "6bdDhmfyHC1c3Prz",
-          "fightID": 4,
+          "reportID": "vGZcg4Pyprb3kQ6M",
+          "fightID": 13,
           "affixes": [10, 8, 12, 121]
         },
         {
@@ -230,6 +220,36 @@
           "keyLevel": 20,
           "inTime": 1,
           "reportID": "LBQC39znR8VDhcm4",
+          "fightID": 4,
+          "affixes": [10, 8, 12, 121]
+        },
+        {
+          "dps": 2548,
+          "hps": 2076,
+          "deaths": 1,
+          "keyLevel": 20,
+          "inTime": 1,
+          "reportID": "Yv2JHyhf87nA9gwQ",
+          "fightID": 12,
+          "affixes": [10, 8, 12, 121]
+        },
+        {
+          "dps": 2568,
+          "hps": 2134,
+          "deaths": 1,
+          "keyLevel": 20,
+          "inTime": 1,
+          "reportID": "fWZR3njYcKGVq6QC",
+          "fightID": 2,
+          "affixes": [10, 8, 12, 121]
+        },
+        {
+          "dps": 2598,
+          "hps": 2188,
+          "deaths": 2,
+          "keyLevel": 20,
+          "inTime": 1,
+          "reportID": "6bdDhmfyHC1c3Prz",
           "fightID": 4,
           "affixes": [10, 8, 12, 121]
         },
@@ -264,14 +284,14 @@
           "affixes": [10, 123, 3, 121]
         },
         {
-          "dps": 2652,
-          "hps": 1919,
-          "deaths": 2,
-          "keyLevel": 18,
-          "inTime": 1,
-          "reportID": "ZrmzBVkdt42fgqv3",
-          "fightID": 8,
-          "affixes": [10, 122, 124, 121]
+          "dps": 2561,
+          "hps": 1767,
+          "deaths": 4,
+          "keyLevel": 19,
+          "inTime": 0,
+          "reportID": "JygTFjhX7ZDLfvRQ",
+          "fightID": 7,
+          "affixes": [10, 123, 3, 121]
         },
         {
           "dps": 2632,
@@ -294,6 +314,26 @@
           "affixes": [10, 123, 3, 121]
         },
         {
+          "dps": 2811,
+          "hps": 1603,
+          "deaths": 1,
+          "keyLevel": 18,
+          "inTime": 1,
+          "reportID": "JygTFjhX7ZDLfvRQ",
+          "fightID": 3,
+          "affixes": [10, 123, 3, 121]
+        },
+        {
+          "dps": 2685,
+          "hps": 1913,
+          "deaths": 3,
+          "keyLevel": 17,
+          "inTime": 1,
+          "reportID": "6bdDhmfyHC1c3Prz",
+          "fightID": 1,
+          "affixes": [10, 8, 12, 121]
+        },
+        {
           "dps": 2432,
           "hps": 1593,
           "deaths": 5,
@@ -309,29 +349,9 @@
           "deaths": 2,
           "keyLevel": 17,
           "inTime": 1,
-          "reportID": "dQhNYL3kqjpA8vGR",
-          "fightID": 9,
+          "reportID": "vJCpgmQH2wd9BD34",
+          "fightID": 7,
           "affixes": [10, 8, 14, 121]
-        },
-        {
-          "dps": 2685,
-          "hps": 1913,
-          "deaths": 3,
-          "keyLevel": 17,
-          "inTime": 1,
-          "reportID": "6bdDhmfyHC1c3Prz",
-          "fightID": 1,
-          "affixes": [10, 8, 12, 121]
-        },
-        {
-          "dps": 2375,
-          "hps": 1776,
-          "deaths": 2,
-          "keyLevel": 16,
-          "inTime": 1,
-          "reportID": "JmQ2zwK9N6q1BRtZ",
-          "fightID": 10,
-          "affixes": [10, 122, 124, 121]
         },
         {
           "dps": 2403,
@@ -342,6 +362,16 @@
           "reportID": "TfNCnMqXLy3bWtPh",
           "fightID": 1,
           "affixes": [9, 122, 4, 121]
+        },
+        {
+          "dps": 2684,
+          "hps": 1860,
+          "deaths": 0,
+          "keyLevel": 15,
+          "inTime": 2,
+          "reportID": "mrRKt7HFyXLkxfpD",
+          "fightID": 17,
+          "affixes": [10, 11, 3, 121]
         },
         {
           "dps": 2431,
@@ -364,16 +394,6 @@
           "affixes": [10, 122, 124, 121]
         },
         {
-          "dps": 2553,
-          "hps": 1391,
-          "deaths": 0,
-          "keyLevel": 14,
-          "inTime": 1,
-          "reportID": "PRx1KBvp3qJkmf9V",
-          "fightID": 1,
-          "affixes": [10, 8, 14, 121]
-        },
-        {
           "dps": 2613,
           "hps": 1454,
           "deaths": 0,
@@ -384,11 +404,21 @@
           "affixes": [9, 7, 4, 121]
         },
         {
+          "dps": 2563,
+          "hps": 1395,
+          "deaths": 0,
+          "keyLevel": 14,
+          "inTime": 1,
+          "reportID": "gctz3A2LwXMynjvY",
+          "fightID": 3,
+          "affixes": [10, 123, 12, 121]
+        },
+        {
           "dps": 2183,
           "hps": 1359,
           "deaths": 2,
           "keyLevel": 13,
-          "inTime": 1,
+          "inTime": 0,
           "reportID": "kZWMCyhQYtXHqacd",
           "fightID": 4,
           "affixes": [9, 7, 124, 121]
@@ -401,26 +431,6 @@
           "inTime": 1,
           "reportID": "GYyqNgHp9jWZvAnb",
           "fightID": 2,
-          "affixes": [9, 7, 124, 121]
-        },
-        {
-          "dps": 2318,
-          "hps": 1352,
-          "deaths": 0,
-          "keyLevel": 12,
-          "inTime": 1,
-          "reportID": "wWrBPxTfQn9J6apt",
-          "fightID": 10,
-          "affixes": [9, 7, 124, 121]
-        },
-        {
-          "dps": 2033,
-          "hps": 1152,
-          "deaths": 1,
-          "keyLevel": 11,
-          "inTime": 1,
-          "reportID": "wWrBPxTfQn9J6apt",
-          "fightID": 7,
           "affixes": [9, 7, 124, 121]
         },
         {
@@ -439,14 +449,34 @@
       12286,
       [
         {
-          "dps": 2956,
-          "hps": 2252,
-          "deaths": 6,
+          "dps": 4325,
+          "hps": 2904,
+          "deaths": 4,
+          "keyLevel": 21,
+          "inTime": 1,
+          "reportID": "8yJxhQqPmDbj3ABT",
+          "fightID": 29,
+          "affixes": [10, 11, 3, 121]
+        },
+        {
+          "dps": 3475,
+          "hps": 2388,
+          "deaths": 7,
           "keyLevel": 20,
           "inTime": 0,
-          "reportID": "w6zVYCBdK9ZRqXgW",
+          "reportID": "Dvk1VqtTxg6GYHNb",
           "fightID": 7,
-          "affixes": [9, 11, 13, 121]
+          "affixes": [10, 11, 3, 121]
+        },
+        {
+          "dps": 4199,
+          "hps": 2895,
+          "deaths": 3,
+          "keyLevel": 20,
+          "inTime": 1,
+          "reportID": "CKpQBngvFmhM3j8f",
+          "fightID": 13,
+          "affixes": [10, 11, 3, 121]
         },
         {
           "dps": 3159,
@@ -459,14 +489,14 @@
           "affixes": [10, 8, 12, 121]
         },
         {
-          "dps": 3475,
-          "hps": 2388,
-          "deaths": 7,
+          "dps": 2956,
+          "hps": 2251,
+          "deaths": 6,
           "keyLevel": 20,
-          "inTime": 1,
-          "reportID": "Dvk1VqtTxg6GYHNb",
-          "fightID": 7,
-          "affixes": [10, 11, 3, 121]
+          "inTime": 0,
+          "reportID": "M4mbcfr7KLPWY83V",
+          "fightID": 16,
+          "affixes": [9, 11, 13, 121]
         },
         {
           "dps": 3512,
@@ -479,14 +509,14 @@
           "affixes": [10, 122, 124, 121]
         },
         {
-          "dps": 3295,
-          "hps": 2247,
-          "deaths": 3,
+          "dps": 4610,
+          "hps": 2554,
+          "deaths": 0,
           "keyLevel": 19,
-          "inTime": 0,
-          "reportID": "ZrmzBVkdt42fgqv3",
-          "fightID": 3,
-          "affixes": [10, 122, 124, 121]
+          "inTime": 2,
+          "reportID": "8yJxhQqPmDbj3ABT",
+          "fightID": 18,
+          "affixes": [10, 11, 3, 121]
         },
         {
           "dps": 3925,
@@ -499,33 +529,33 @@
           "affixes": [10, 11, 3, 121]
         },
         {
-          "dps": 4556,
-          "hps": 2527,
-          "deaths": 0,
+          "dps": 3295,
+          "hps": 2247,
+          "deaths": 3,
           "keyLevel": 19,
-          "inTime": 2,
-          "reportID": "6TDmPGCXyZWRKpjV",
+          "inTime": 0,
+          "reportID": "ZrmzBVkdt42fgqv3",
           "fightID": 3,
-          "affixes": [10, 11, 3, 121]
+          "affixes": [10, 122, 124, 121]
         },
         {
           "dps": 3793,
-          "hps": 2578,
+          "hps": 2576,
           "deaths": 0,
           "keyLevel": 18,
           "inTime": 1,
-          "reportID": "wRhyL17qPcXgHB6W",
-          "fightID": 3,
+          "reportID": "g8fnGd1PVvH3XNBr",
+          "fightID": 14,
           "affixes": [9, 6, 14, 121]
         },
         {
-          "dps": 4003,
-          "hps": 2486,
-          "deaths": 2,
+          "dps": 3848,
+          "hps": 2148,
+          "deaths": 4,
           "keyLevel": 18,
-          "inTime": 1,
-          "reportID": "FdRMZv4jLVaK6xCN",
-          "fightID": 11,
+          "inTime": 0,
+          "reportID": "PhyVjCWY8LxwBGza",
+          "fightID": 8,
           "affixes": [10, 123, 3, 121]
         },
         {
@@ -533,30 +563,20 @@
           "hps": 2429,
           "deaths": 2,
           "keyLevel": 16,
-          "inTime": 2,
+          "inTime": 1,
           "reportID": "KB2H8G4pxgZCw9ha",
           "fightID": 3,
           "affixes": [10, 122, 124, 121]
         },
         {
-          "dps": 3529,
-          "hps": 1885,
-          "deaths": 3,
+          "dps": 2889,
+          "hps": 1476,
+          "deaths": 4,
           "keyLevel": 16,
-          "inTime": 1,
-          "reportID": "vJCpgmQH2wd9BD34",
+          "inTime": 0,
+          "reportID": "JB6HyQVYDk49n3c7",
           "fightID": 1,
           "affixes": [10, 8, 14, 121]
-        },
-        {
-          "dps": 3081,
-          "hps": 1722,
-          "deaths": 7,
-          "keyLevel": 15,
-          "inTime": 0,
-          "reportID": "gk6TA7hRXptMbQc3",
-          "fightID": 5,
-          "affixes": [10, 123, 12, 121]
         },
         {
           "dps": 3192,
@@ -579,24 +599,14 @@
           "affixes": [9, 122, 4, 121]
         },
         {
-          "dps": 3109,
-          "hps": 1486,
-          "deaths": 1,
+          "dps": 3081,
+          "hps": 1722,
+          "deaths": 7,
           "keyLevel": 15,
-          "inTime": 1,
-          "reportID": "2qNhgfPV7wnjB9Lx",
-          "fightID": 6,
-          "affixes": [9, 122, 4, 121]
-        },
-        {
-          "dps": 3493,
-          "hps": 2196,
-          "deaths": 0,
-          "keyLevel": 15,
-          "inTime": 1,
-          "reportID": "FnJVhmRLt6Cdb9jw",
-          "fightID": 2,
-          "affixes": [9, 11, 13, 121]
+          "inTime": 0,
+          "reportID": "gk6TA7hRXptMbQc3",
+          "fightID": 5,
+          "affixes": [10, 123, 12, 121]
         },
         {
           "dps": 3211,
@@ -604,8 +614,8 @@
           "deaths": 1,
           "keyLevel": 13,
           "inTime": 1,
-          "reportID": "KxWXYDnL7R6cm4zj",
-          "fightID": 1,
+          "reportID": "JAf9N8nMcVKTQPWY",
+          "fightID": 6,
           "affixes": [9, 122, 4, 121]
         },
         {
@@ -619,6 +629,16 @@
           "affixes": [10, 123, 12, 121]
         },
         {
+          "dps": 3356,
+          "hps": 1758,
+          "deaths": 2,
+          "keyLevel": 12,
+          "inTime": 1,
+          "reportID": "zGaWBLvhqbFP6V83",
+          "fightID": 2,
+          "affixes": [10, 123, 12, 121]
+        },
+        {
           "dps": 3125,
           "hps": 1851,
           "deaths": 1,
@@ -626,16 +646,6 @@
           "inTime": 1,
           "reportID": "kZWMCyhQYtXHqacd",
           "fightID": 1,
-          "affixes": [9, 7, 124, 121]
-        },
-        {
-          "dps": 2325,
-          "hps": 1440,
-          "deaths": 2,
-          "keyLevel": 11,
-          "inTime": 1,
-          "reportID": "h3rgVK1Ydj76QaFB",
-          "fightID": 4,
           "affixes": [9, 7, 124, 121]
         },
         {
@@ -654,24 +664,34 @@
       12287,
       [
         {
-          "dps": 3322,
-          "hps": 2414,
+          "dps": 3217,
+          "hps": 2545,
           "deaths": 1,
-          "keyLevel": 21,
-          "inTime": 1,
-          "reportID": "gy7zDCRH9LGYfpA2",
-          "fightID": 5,
-          "affixes": [9, 6, 14, 121]
+          "keyLevel": 22,
+          "inTime": 0,
+          "reportID": "6TDmPGCXyZWRKpjV",
+          "fightID": 10,
+          "affixes": [10, 11, 3, 121]
         },
         {
-          "dps": 2758,
-          "hps": 1970,
-          "deaths": 3,
+          "dps": 0,
+          "hps": 767,
+          "deaths": 0,
+          "keyLevel": 21,
+          "inTime": 1,
+          "reportID": "Cd4MvVJqbAmrLRyB",
+          "fightID": 3,
+          "affixes": [10, 11, 3, 121]
+        },
+        {
+          "dps": 3041,
+          "hps": 2495,
+          "deaths": 1,
           "keyLevel": 20,
-          "inTime": 0,
-          "reportID": "Hd8rqDkYKFg2MzvT",
-          "fightID": 16,
-          "affixes": [10, 122, 124, 121]
+          "inTime": 1,
+          "reportID": "mrRKt7HFyXLkxfpD",
+          "fightID": 2,
+          "affixes": [10, 11, 3, 121]
         },
         {
           "dps": 3095,
@@ -679,8 +699,8 @@
           "deaths": 2,
           "keyLevel": 20,
           "inTime": 1,
-          "reportID": "gy7zDCRH9LGYfpA2",
-          "fightID": 14,
+          "reportID": "nqrLhBXH6AfC4NdM",
+          "fightID": 43,
           "affixes": [9, 6, 14, 121]
         },
         {
@@ -689,8 +709,8 @@
           "deaths": 5,
           "keyLevel": 20,
           "inTime": 1,
-          "reportID": "wRhyL17qPcXgHB6W",
-          "fightID": 10,
+          "reportID": "VBnGXAtvwa1YPj9m",
+          "fightID": 8,
           "affixes": [9, 6, 14, 121]
         },
         {
@@ -704,21 +724,21 @@
           "affixes": [9, 6, 14, 121]
         },
         {
-          "dps": 3437,
-          "hps": 2432,
-          "deaths": 0,
+          "dps": 2758,
+          "hps": 1970,
+          "deaths": 3,
           "keyLevel": 20,
-          "inTime": 1,
-          "reportID": "JVRvXaxbgB6GAnfw",
-          "fightID": 14,
-          "affixes": [10, 8, 12, 121]
+          "inTime": 0,
+          "reportID": "Hd8rqDkYKFg2MzvT",
+          "fightID": 16,
+          "affixes": [10, 122, 124, 121]
         },
         {
           "dps": 1421,
           "hps": 875,
           "deaths": 2,
           "keyLevel": 20,
-          "inTime": 0,
+          "inTime": 1,
           "reportID": "2pkctmNVg6ryL7f8",
           "fightID": 4,
           "affixes": [10, 123, 3, 121]
@@ -729,8 +749,8 @@
           "deaths": 2,
           "keyLevel": 19,
           "inTime": 1,
-          "reportID": "wRhyL17qPcXgHB6W",
-          "fightID": 6,
+          "reportID": "g8fnGd1PVvH3XNBr",
+          "fightID": 20,
           "affixes": [9, 6, 14, 121]
         },
         {
@@ -739,29 +759,9 @@
           "deaths": 1,
           "keyLevel": 19,
           "inTime": 0,
-          "reportID": "M4mbcfr7KLPWY83V",
-          "fightID": 21,
+          "reportID": "w6zVYCBdK9ZRqXgW",
+          "fightID": 9,
           "affixes": [9, 11, 13, 121]
-        },
-        {
-          "dps": 2967,
-          "hps": 1913,
-          "deaths": 1,
-          "keyLevel": 19,
-          "inTime": 0,
-          "reportID": "JwbcXQ2ZMRh1tnTD",
-          "fightID": 2,
-          "affixes": [9, 7, 4, 121]
-        },
-        {
-          "dps": 3288,
-          "hps": 2359,
-          "deaths": 1,
-          "keyLevel": 19,
-          "inTime": 1,
-          "reportID": "ZrmzBVkdt42fgqv3",
-          "fightID": 2,
-          "affixes": [10, 122, 124, 121]
         },
         {
           "dps": 3350,
@@ -769,9 +769,19 @@
           "deaths": 0,
           "keyLevel": 19,
           "inTime": 1,
-          "reportID": "7MKqx2FDjnVyfA9c",
-          "fightID": 2,
+          "reportID": "JmQ2zwK9N6q1BRtZ",
+          "fightID": 1,
           "affixes": [10, 122, 124, 121]
+        },
+        {
+          "dps": 2967,
+          "hps": 1913,
+          "deaths": 1,
+          "keyLevel": 19,
+          "inTime": 0,
+          "reportID": "NJ9RYmFgaXjAQ2W4",
+          "fightID": 32,
+          "affixes": [9, 7, 4, 121]
         },
         {
           "dps": 3433,
@@ -784,23 +794,13 @@
           "affixes": [10, 123, 3, 121]
         },
         {
-          "dps": 3170,
-          "hps": 1720,
-          "deaths": 3,
-          "keyLevel": 18,
-          "inTime": 1,
-          "reportID": "2463R1LmBDjWGcNy",
-          "fightID": 20,
-          "affixes": [10, 8, 14, 121]
-        },
-        {
           "dps": 3189,
           "hps": 2246,
           "deaths": 0,
           "keyLevel": 18,
           "inTime": 1,
-          "reportID": "pzgh4Z71aHbWfVJM",
-          "fightID": 34,
+          "reportID": "tW96NKJDAdxX4gGj",
+          "fightID": 10,
           "affixes": [9, 6, 14, 121]
         },
         {
@@ -814,24 +814,24 @@
           "affixes": [10, 122, 124, 121]
         },
         {
-          "dps": 3063,
-          "hps": 1983,
-          "deaths": 4,
-          "keyLevel": 17,
+          "dps": 3170,
+          "hps": 1720,
+          "deaths": 3,
+          "keyLevel": 18,
           "inTime": 1,
-          "reportID": "fwYy2HDWkLjGRKg4",
-          "fightID": 1,
-          "affixes": [10, 11, 3, 121]
+          "reportID": "x3dZmphLvN8QPFV6",
+          "fightID": 3,
+          "affixes": [10, 8, 14, 121]
         },
         {
-          "dps": 3000,
-          "hps": 1863,
-          "deaths": 2,
+          "dps": 2859,
+          "hps": 1746,
+          "deaths": 0,
           "keyLevel": 17,
-          "inTime": 1,
-          "reportID": "D6xCQ7rdnGv98zPp",
-          "fightID": 19,
-          "affixes": [10, 8, 12, 121]
+          "inTime": 0,
+          "reportID": "W9THJMLk26vcdQC7",
+          "fightID": 1,
+          "affixes": [10, 8, 14, 121]
         },
         {
           "dps": 3007,
@@ -839,19 +839,9 @@
           "deaths": 1,
           "keyLevel": 17,
           "inTime": 1,
-          "reportID": "TfNCnMqXLy3bWtPh",
-          "fightID": 2,
+          "reportID": "NRvTC9qKaMAn8x4V",
+          "fightID": 1,
           "affixes": [9, 122, 4, 121]
-        },
-        {
-          "dps": 3074,
-          "hps": 2021,
-          "deaths": 0,
-          "keyLevel": 16,
-          "inTime": 1,
-          "reportID": "Gvcfh7Y6dBDtCa1A",
-          "fightID": 3,
-          "affixes": [9, 6, 14, 121]
         },
         {
           "dps": 3033,
@@ -864,6 +854,36 @@
           "affixes": [9, 6, 14, 121]
         },
         {
+          "dps": 3074,
+          "hps": 2021,
+          "deaths": 0,
+          "keyLevel": 16,
+          "inTime": 1,
+          "reportID": "Gvcfh7Y6dBDtCa1A",
+          "fightID": 3,
+          "affixes": [9, 6, 14, 121]
+        },
+        {
+          "dps": 2805,
+          "hps": 1662,
+          "deaths": 4,
+          "keyLevel": 16,
+          "inTime": 1,
+          "reportID": "gy7zDCRH9LGYfpA2",
+          "fightID": 17,
+          "affixes": [9, 6, 14, 121]
+        },
+        {
+          "dps": 3125,
+          "hps": 1839,
+          "deaths": 0,
+          "keyLevel": 15,
+          "inTime": 1,
+          "reportID": "Dvk1VqtTxg6GYHNb",
+          "fightID": 1,
+          "affixes": [10, 11, 3, 121]
+        },
+        {
           "dps": 2911,
           "hps": 1832,
           "deaths": 1,
@@ -872,26 +892,6 @@
           "reportID": "xvkPtRrG3fpc2y6z",
           "fightID": 5,
           "affixes": [9, 7, 4, 121]
-        },
-        {
-          "dps": 2933,
-          "hps": 1832,
-          "deaths": 1,
-          "keyLevel": 15,
-          "inTime": 1,
-          "reportID": "mfw2gMz8tbaVy6n9",
-          "fightID": 1,
-          "affixes": [9, 6, 13, 121]
-        },
-        {
-          "dps": 3125,
-          "hps": 1839,
-          "deaths": 0,
-          "keyLevel": 15,
-          "inTime": 2,
-          "reportID": "Dvk1VqtTxg6GYHNb",
-          "fightID": 1,
-          "affixes": [10, 11, 3, 121]
         },
         {
           "dps": 3099,
@@ -914,6 +914,16 @@
           "affixes": [9, 6, 13, 121]
         },
         {
+          "dps": 2933,
+          "hps": 1832,
+          "deaths": 1,
+          "keyLevel": 15,
+          "inTime": 1,
+          "reportID": "mfw2gMz8tbaVy6n9",
+          "fightID": 1,
+          "affixes": [9, 6, 13, 121]
+        },
+        {
           "dps": 3285,
           "hps": 1704,
           "deaths": 3,
@@ -922,6 +932,26 @@
           "reportID": "8GDqRKAPX63LMydh",
           "fightID": 2,
           "affixes": [9, 6, 13, 121]
+        },
+        {
+          "dps": 2712,
+          "hps": 1786,
+          "deaths": 2,
+          "keyLevel": 14,
+          "inTime": 1,
+          "reportID": "WPnm9kAqQB1jC2zF",
+          "fightID": 1,
+          "affixes": [9, 7, 124, 121]
+        },
+        {
+          "dps": 3226,
+          "hps": 1570,
+          "deaths": 0,
+          "keyLevel": 14,
+          "inTime": 2,
+          "reportID": "1RaAqDNPhk63VJCQ",
+          "fightID": 4,
+          "affixes": [9, 6, 14, 121]
         },
         {
           "dps": 3145,
@@ -938,20 +968,10 @@
           "hps": 2091,
           "deaths": 1,
           "keyLevel": 14,
-          "inTime": 2,
+          "inTime": 1,
           "reportID": "YPq3nQr2FyTgCtHj",
           "fightID": 6,
           "affixes": [10, 122, 124, 121]
-        },
-        {
-          "dps": 3226,
-          "hps": 1570,
-          "deaths": 0,
-          "keyLevel": 14,
-          "inTime": 2,
-          "reportID": "1RaAqDNPhk63VJCQ",
-          "fightID": 4,
-          "affixes": [9, 6, 14, 121]
         },
         {
           "dps": 3783,
@@ -964,36 +984,6 @@
           "affixes": [10, 123, 3, 121]
         },
         {
-          "dps": 2746,
-          "hps": 1247,
-          "deaths": 0,
-          "keyLevel": 13,
-          "inTime": 1,
-          "reportID": "wWrBPxTfQn9J6apt",
-          "fightID": 11,
-          "affixes": [9, 7, 124, 121]
-        },
-        {
-          "dps": 3178,
-          "hps": 1194,
-          "deaths": 0,
-          "keyLevel": 13,
-          "inTime": 2,
-          "reportID": "hVxv9z4dNQtFpjJ6",
-          "fightID": 17,
-          "affixes": [9, 122, 4, 121]
-        },
-        {
-          "dps": 3536,
-          "hps": 1822,
-          "deaths": 6,
-          "keyLevel": 13,
-          "inTime": 1,
-          "reportID": "kxZQ62rchXLad1JN",
-          "fightID": 1,
-          "affixes": [10, 123, 12, 121]
-        },
-        {
           "dps": 3762,
           "hps": 2151,
           "deaths": 0,
@@ -1004,14 +994,34 @@
           "affixes": [10, 8, 12, 121]
         },
         {
-          "dps": 3073,
-          "hps": 2292,
+          "dps": 3179,
+          "hps": 1194,
           "deaths": 0,
-          "keyLevel": 12,
+          "keyLevel": 13,
           "inTime": 2,
-          "reportID": "TdNhm9RnYgrwDLxH",
-          "fightID": 7,
-          "affixes": [9, 11, 13, 121]
+          "reportID": "TVP2WGfthzHQ1AY7",
+          "fightID": 9,
+          "affixes": [9, 122, 4, 121]
+        },
+        {
+          "dps": 2877,
+          "hps": 1572,
+          "deaths": 1,
+          "keyLevel": 13,
+          "inTime": 1,
+          "reportID": "xd4C8PhkMcBvV3ta",
+          "fightID": 32,
+          "affixes": [9, 7, 124, 121]
+        },
+        {
+          "dps": 3575,
+          "hps": 1671,
+          "deaths": 0,
+          "keyLevel": 11,
+          "inTime": 2,
+          "reportID": "Zx1C93dH4wTXVabY",
+          "fightID": 1,
+          "affixes": [10, 123, 12, 121]
         },
         {
           "dps": 2629,
@@ -1032,26 +1042,6 @@
           "reportID": "zngPJ1wDXQ79FvdR",
           "fightID": 26,
           "affixes": [9, 7, 124, 121]
-        },
-        {
-          "dps": 3575,
-          "hps": 1671,
-          "deaths": 0,
-          "keyLevel": 11,
-          "inTime": 2,
-          "reportID": "Zx1C93dH4wTXVabY",
-          "fightID": 1,
-          "affixes": [10, 123, 12, 121]
-        },
-        {
-          "dps": 2361,
-          "hps": 1309,
-          "deaths": 3,
-          "keyLevel": 10,
-          "inTime": 1,
-          "reportID": "6p49NCbaFmd2gwDh",
-          "fightID": 1,
-          "affixes": [10, 11, 3, 121]
         },
         {
           "dps": 3346,
@@ -1082,6 +1072,16 @@
           "reportID": "XQ2RBA9Zb7nr1dhg",
           "fightID": 2,
           "affixes": [10, 123, 12, 121]
+        },
+        {
+          "dps": 2361,
+          "hps": 1309,
+          "deaths": 3,
+          "keyLevel": 10,
+          "inTime": 1,
+          "reportID": "6p49NCbaFmd2gwDh",
+          "fightID": 1,
+          "affixes": [10, 11, 3, 121]
         }
       ]
     ],
@@ -1099,6 +1099,16 @@
           "affixes": [10, 11, 3, 121]
         },
         {
+          "dps": 3114,
+          "hps": 2702,
+          "deaths": 0,
+          "keyLevel": 21,
+          "inTime": 1,
+          "reportID": "NVZndMKc7jJr6GpF",
+          "fightID": 22,
+          "affixes": [10, 8, 12, 121]
+        },
+        {
           "dps": 2764,
           "hps": 2397,
           "deaths": 5,
@@ -1107,46 +1117,6 @@
           "reportID": "D6xCQ7rdnGv98zPp",
           "fightID": 10,
           "affixes": [10, 8, 12, 121]
-        },
-        {
-          "dps": 3115,
-          "hps": 2702,
-          "deaths": 0,
-          "keyLevel": 21,
-          "inTime": 1,
-          "reportID": "LBQC39znR8VDhcm4",
-          "fightID": 7,
-          "affixes": [10, 8, 12, 121]
-        },
-        {
-          "dps": 2669,
-          "hps": 2174,
-          "deaths": 2,
-          "keyLevel": 20,
-          "inTime": 1,
-          "reportID": "w6zVYCBdK9ZRqXgW",
-          "fightID": 2,
-          "affixes": [9, 11, 13, 121]
-        },
-        {
-          "dps": 2756,
-          "hps": 2346,
-          "deaths": 3,
-          "keyLevel": 20,
-          "inTime": 1,
-          "reportID": "MDF7g3JLzjR2xGHK",
-          "fightID": 7,
-          "affixes": [10, 11, 3, 121]
-        },
-        {
-          "dps": 2844,
-          "hps": 2506,
-          "deaths": 2,
-          "keyLevel": 20,
-          "inTime": 1,
-          "reportID": "pzgh4Z71aHbWfVJM",
-          "fightID": 24,
-          "affixes": [9, 6, 14, 121]
         },
         {
           "dps": 2834,
@@ -1159,6 +1129,46 @@
           "affixes": [10, 11, 3, 121]
         },
         {
+          "dps": 2756,
+          "hps": 2346,
+          "deaths": 3,
+          "keyLevel": 20,
+          "inTime": 1,
+          "reportID": "MDF7g3JLzjR2xGHK",
+          "fightID": 7,
+          "affixes": [10, 11, 3, 121]
+        },
+        {
+          "dps": 2669,
+          "hps": 2174,
+          "deaths": 2,
+          "keyLevel": 20,
+          "inTime": 1,
+          "reportID": "w6zVYCBdK9ZRqXgW",
+          "fightID": 2,
+          "affixes": [9, 11, 13, 121]
+        },
+        {
+          "dps": 2733,
+          "hps": 2256,
+          "deaths": 3,
+          "keyLevel": 20,
+          "inTime": 1,
+          "reportID": "ZQ7kw8tJDxbRpGMV",
+          "fightID": 10,
+          "affixes": [10, 122, 124, 121]
+        },
+        {
+          "dps": 2890,
+          "hps": 2624,
+          "deaths": 2,
+          "keyLevel": 19,
+          "inTime": 0,
+          "reportID": "tW96NKJDAdxX4gGj",
+          "fightID": 4,
+          "affixes": [9, 6, 14, 121]
+        },
+        {
           "dps": 2520,
           "hps": 2125,
           "deaths": 4,
@@ -1167,46 +1177,6 @@
           "reportID": "2vqwDH1ZJ3znQWmK",
           "fightID": 1,
           "affixes": [10, 122, 124, 121]
-        },
-        {
-          "dps": 2802,
-          "hps": 1599,
-          "deaths": 3,
-          "keyLevel": 19,
-          "inTime": 0,
-          "reportID": "qxcXAHjKbTaMY7BD",
-          "fightID": 10,
-          "affixes": [10, 123, 3, 121]
-        },
-        {
-          "dps": 2890,
-          "hps": 2624,
-          "deaths": 2,
-          "keyLevel": 19,
-          "inTime": 1,
-          "reportID": "tW96NKJDAdxX4gGj",
-          "fightID": 4,
-          "affixes": [9, 6, 14, 121]
-        },
-        {
-          "dps": 2937,
-          "hps": 2283,
-          "deaths": 1,
-          "keyLevel": 19,
-          "inTime": 1,
-          "reportID": "ZrmzBVkdt42fgqv3",
-          "fightID": 6,
-          "affixes": [10, 122, 124, 121]
-        },
-        {
-          "dps": 3045,
-          "hps": 1872,
-          "deaths": 1,
-          "keyLevel": 19,
-          "inTime": 1,
-          "reportID": "CJ9fAPc3nTdw6kzR",
-          "fightID": 10,
-          "affixes": [10, 123, 3, 121]
         },
         {
           "dps": 3076,
@@ -1219,14 +1189,14 @@
           "affixes": [10, 123, 3, 121]
         },
         {
-          "dps": 2772,
-          "hps": 1823,
-          "deaths": 4,
-          "keyLevel": 18,
+          "dps": 2802,
+          "hps": 1599,
+          "deaths": 3,
+          "keyLevel": 19,
           "inTime": 0,
-          "reportID": "vJCpgmQH2wd9BD34",
-          "fightID": 11,
-          "affixes": [10, 8, 14, 121]
+          "reportID": "qxcXAHjKbTaMY7BD",
+          "fightID": 10,
+          "affixes": [10, 123, 3, 121]
         },
         {
           "dps": 2973,
@@ -1239,14 +1209,24 @@
           "affixes": [10, 122, 124, 121]
         },
         {
-          "dps": 2342,
-          "hps": 1453,
-          "deaths": 8,
-          "keyLevel": 17,
+          "dps": 2772,
+          "hps": 1823,
+          "deaths": 4,
+          "keyLevel": 18,
           "inTime": 0,
-          "reportID": "PRx1KBvp3qJkmf9V",
-          "fightID": 3,
+          "reportID": "dQhNYL3kqjpA8vGR",
+          "fightID": 13,
           "affixes": [10, 8, 14, 121]
+        },
+        {
+          "dps": 3026,
+          "hps": 1842,
+          "deaths": 1,
+          "keyLevel": 17,
+          "inTime": 1,
+          "reportID": "JygTFjhX7ZDLfvRQ",
+          "fightID": 4,
+          "affixes": [10, 123, 3, 121]
         },
         {
           "dps": 2482,
@@ -1259,14 +1239,14 @@
           "affixes": [9, 6, 13, 121]
         },
         {
-          "dps": 2888,
-          "hps": 2192,
-          "deaths": 0,
-          "keyLevel": 16,
-          "inTime": 2,
-          "reportID": "YPq3nQr2FyTgCtHj",
-          "fightID": 2,
-          "affixes": [10, 122, 124, 121]
+          "dps": 2342,
+          "hps": 1453,
+          "deaths": 8,
+          "keyLevel": 17,
+          "inTime": 0,
+          "reportID": "PRx1KBvp3qJkmf9V",
+          "fightID": 3,
+          "affixes": [10, 8, 14, 121]
         },
         {
           "dps": 2213,
@@ -1279,34 +1259,34 @@
           "affixes": [9, 7, 124, 121]
         },
         {
-          "dps": 2533,
-          "hps": 1511,
+          "dps": 2716,
+          "hps": 1881,
           "deaths": 1,
           "keyLevel": 15,
-          "inTime": 1,
-          "reportID": "JB6HyQVYDk49n3c7",
+          "inTime": 2,
+          "reportID": "JpDrQGCVMBn72y9q",
           "fightID": 3,
-          "affixes": [10, 8, 14, 121]
+          "affixes": [9, 6, 14, 121]
         },
         {
-          "dps": 2578,
-          "hps": 1911,
-          "deaths": 2,
-          "keyLevel": 15,
-          "inTime": 1,
-          "reportID": "h87BAgpDTnbWQk9N",
-          "fightID": 2,
-          "affixes": [9, 7, 124, 121]
-        },
-        {
-          "dps": 2689,
-          "hps": 2213,
+          "dps": 2860,
+          "hps": 2101,
           "deaths": 0,
           "keyLevel": 15,
           "inTime": 2,
-          "reportID": "FnJVhmRLt6Cdb9jw",
-          "fightID": 7,
-          "affixes": [9, 11, 13, 121]
+          "reportID": "bK9pHBmkGVaw6L2t",
+          "fightID": 3,
+          "affixes": [10, 8, 12, 121]
+        },
+        {
+          "dps": 2940,
+          "hps": 2096,
+          "deaths": 0,
+          "keyLevel": 15,
+          "inTime": 1,
+          "reportID": "ZQ7kw8tJDxbRpGMV",
+          "fightID": 1,
+          "affixes": [10, 122, 124, 121]
         },
         {
           "dps": 2720,
@@ -1319,16 +1299,6 @@
           "affixes": [10, 122, 124, 121]
         },
         {
-          "dps": 2716,
-          "hps": 1881,
-          "deaths": 1,
-          "keyLevel": 15,
-          "inTime": 2,
-          "reportID": "JpDrQGCVMBn72y9q",
-          "fightID": 3,
-          "affixes": [9, 6, 14, 121]
-        },
-        {
           "dps": 2851,
           "hps": 1732,
           "deaths": 1,
@@ -1339,14 +1309,24 @@
           "affixes": [10, 8, 14, 121]
         },
         {
-          "dps": 2648,
-          "hps": 1465,
-          "deaths": 3,
+          "dps": 2827,
+          "hps": 2080,
+          "deaths": 0,
           "keyLevel": 14,
           "inTime": 1,
-          "reportID": "kxZQ62rchXLad1JN",
-          "fightID": 8,
-          "affixes": [10, 123, 12, 121]
+          "reportID": "mrRKt7HFyXLkxfpD",
+          "fightID": 15,
+          "affixes": [10, 11, 3, 121]
+        },
+        {
+          "dps": 3072,
+          "hps": 2256,
+          "deaths": 0,
+          "keyLevel": 14,
+          "inTime": 2,
+          "reportID": "F4BHP6NrnkDLg8Xx",
+          "fightID": 21,
+          "affixes": [9, 6, 14, 121]
         },
         {
           "dps": 2902,
@@ -1359,24 +1339,14 @@
           "affixes": [10, 122, 124, 121]
         },
         {
-          "dps": 3072,
-          "hps": 2256,
-          "deaths": 0,
+          "dps": 2648,
+          "hps": 1465,
+          "deaths": 3,
           "keyLevel": 14,
-          "inTime": 2,
-          "reportID": "1RaAqDNPhk63VJCQ",
-          "fightID": 1,
-          "affixes": [9, 6, 14, 121]
-        },
-        {
-          "dps": 2691,
-          "hps": 2102,
-          "deaths": 1,
-          "keyLevel": 13,
           "inTime": 1,
-          "reportID": "KB2H8G4pxgZCw9ha",
-          "fightID": 1,
-          "affixes": [10, 122, 124, 121]
+          "reportID": "kxZQ62rchXLad1JN",
+          "fightID": 8,
+          "affixes": [10, 123, 12, 121]
         },
         {
           "dps": 2844,
@@ -1389,14 +1359,14 @@
           "affixes": [9, 6, 14, 121]
         },
         {
-          "dps": 2064,
-          "hps": 1330,
-          "deaths": 3,
-          "keyLevel": 11,
-          "inTime": 0,
-          "reportID": "6p49NCbaFmd2gwDh",
-          "fightID": 9,
-          "affixes": [10, 11, 3, 121]
+          "dps": 2691,
+          "hps": 2102,
+          "deaths": 1,
+          "keyLevel": 13,
+          "inTime": 1,
+          "reportID": "KB2H8G4pxgZCw9ha",
+          "fightID": 1,
+          "affixes": [10, 122, 124, 121]
         },
         {
           "dps": 2332,
@@ -1424,16 +1394,6 @@
       12290,
       [
         {
-          "dps": 3133,
-          "hps": 2269,
-          "deaths": 2,
-          "keyLevel": 21,
-          "inTime": 0,
-          "reportID": "gy7zDCRH9LGYfpA2",
-          "fightID": 16,
-          "affixes": [9, 6, 14, 121]
-        },
-        {
           "dps": 3410,
           "hps": 2519,
           "deaths": 1,
@@ -1444,64 +1404,74 @@
           "affixes": [10, 11, 3, 121]
         },
         {
-          "dps": 3409,
-          "hps": 2552,
-          "deaths": 2,
+          "dps": 3735,
+          "hps": 2516,
+          "deaths": 0,
           "keyLevel": 21,
           "inTime": 1,
-          "reportID": "CRXjFQPY9czLvx6A",
-          "fightID": 6,
+          "reportID": "CKpQBngvFmhM3j8f",
+          "fightID": 19,
           "affixes": [10, 11, 3, 121]
+        },
+        {
+          "dps": 3646,
+          "hps": 2673,
+          "deaths": 1,
+          "keyLevel": 21,
+          "inTime": 1,
+          "reportID": "9PQnVa6ptvFgcyW2",
+          "fightID": 21,
+          "affixes": [10, 11, 3, 121]
+        },
+        {
+          "dps": 3620,
+          "hps": 2530,
+          "deaths": 1,
+          "keyLevel": 20,
+          "inTime": 1,
+          "reportID": "MDF7g3JLzjR2xGHK",
+          "fightID": 12,
+          "affixes": [10, 11, 3, 121]
+        },
+        {
+          "dps": 3635,
+          "hps": 2564,
+          "deaths": 1,
+          "keyLevel": 20,
+          "inTime": 1,
+          "reportID": "9PQnVa6ptvFgcyW2",
+          "fightID": 4,
+          "affixes": [10, 11, 3, 121]
+        },
+        {
+          "dps": 3411,
+          "hps": 2244,
+          "deaths": 1,
+          "keyLevel": 20,
+          "inTime": 1,
+          "reportID": "gy7zDCRH9LGYfpA2",
+          "fightID": 2,
+          "affixes": [9, 6, 14, 121]
         },
         {
           "dps": 3364,
           "hps": 2450,
           "deaths": 2,
           "keyLevel": 20,
-          "inTime": 1,
+          "inTime": 0,
           "reportID": "D6xCQ7rdnGv98zPp",
           "fightID": 15,
           "affixes": [10, 8, 12, 121]
         },
         {
-          "dps": 3411,
-          "hps": 2354,
-          "deaths": 0,
-          "keyLevel": 20,
-          "inTime": 1,
-          "reportID": "Zhgn2pqYA7QKVdMx",
-          "fightID": 6,
-          "affixes": [10, 8, 12, 121]
-        },
-        {
           "dps": 3483,
-          "hps": 2428,
+          "hps": 2427,
           "deaths": 3,
           "keyLevel": 19,
           "inTime": 1,
-          "reportID": "6bdDhmfyHC1c3Prz",
-          "fightID": 9,
+          "reportID": "tBrAwvF6g9M2LWbk",
+          "fightID": 8,
           "affixes": [10, 8, 12, 121]
-        },
-        {
-          "dps": 3550,
-          "hps": 2449,
-          "deaths": 0,
-          "keyLevel": 19,
-          "inTime": 1,
-          "reportID": "bK9pHBmkGVaw6L2t",
-          "fightID": 7,
-          "affixes": [10, 8, 12, 121]
-        },
-        {
-          "dps": 3636,
-          "hps": 1908,
-          "deaths": 0,
-          "keyLevel": 19,
-          "inTime": 1,
-          "reportID": "9PQnVa6ptvFgcyW2",
-          "fightID": 13,
-          "affixes": [10, 11, 3, 121]
         },
         {
           "dps": 3841,
@@ -1511,46 +1481,6 @@
           "inTime": 1,
           "reportID": "mq2wJXgQPtRDkF7Y",
           "fightID": 6,
-          "affixes": [10, 123, 3, 121]
-        },
-        {
-          "dps": 3274,
-          "hps": 1793,
-          "deaths": 1,
-          "keyLevel": 18,
-          "inTime": 1,
-          "reportID": "1h8cYrRGZPHAyLzW",
-          "fightID": 1,
-          "affixes": [9, 7, 4, 121]
-        },
-        {
-          "dps": 3401,
-          "hps": 2438,
-          "deaths": 0,
-          "keyLevel": 18,
-          "inTime": 1,
-          "reportID": "QDdF2nkGWN1J8K7Y",
-          "fightID": 2,
-          "affixes": [10, 11, 3, 121]
-        },
-        {
-          "dps": 3358,
-          "hps": 2328,
-          "deaths": 1,
-          "keyLevel": 18,
-          "inTime": 1,
-          "reportID": "ZrmzBVkdt42fgqv3",
-          "fightID": 4,
-          "affixes": [10, 122, 124, 121]
-        },
-        {
-          "dps": 3570,
-          "hps": 1893,
-          "deaths": 2,
-          "keyLevel": 18,
-          "inTime": 1,
-          "reportID": "CJ9fAPc3nTdw6kzR",
-          "fightID": 9,
           "affixes": [10, 123, 3, 121]
         },
         {
@@ -1564,6 +1494,26 @@
           "affixes": [10, 11, 3, 121]
         },
         {
+          "dps": 3400,
+          "hps": 2438,
+          "deaths": 0,
+          "keyLevel": 18,
+          "inTime": 1,
+          "reportID": "n378bYMdp4PxXwQa",
+          "fightID": 4,
+          "affixes": [10, 11, 3, 121]
+        },
+        {
+          "dps": 3358,
+          "hps": 2328,
+          "deaths": 1,
+          "keyLevel": 18,
+          "inTime": 1,
+          "reportID": "ZrmzBVkdt42fgqv3",
+          "fightID": 4,
+          "affixes": [10, 122, 124, 121]
+        },
+        {
           "dps": 3584,
           "hps": 2498,
           "deaths": 0,
@@ -1572,6 +1522,26 @@
           "reportID": "bF47w1HZWxDcRM2Y",
           "fightID": 1,
           "affixes": [10, 122, 124, 121]
+        },
+        {
+          "dps": 3274,
+          "hps": 1793,
+          "deaths": 1,
+          "keyLevel": 18,
+          "inTime": 1,
+          "reportID": "1h8cYrRGZPHAyLzW",
+          "fightID": 1,
+          "affixes": [9, 7, 4, 121]
+        },
+        {
+          "dps": 3459,
+          "hps": 2659,
+          "deaths": 0,
+          "keyLevel": 17,
+          "inTime": 1,
+          "reportID": "WPnm9kAqQB1jC2zF",
+          "fightID": 3,
+          "affixes": [9, 7, 124, 121]
         },
         {
           "dps": 3060,
@@ -1584,34 +1554,44 @@
           "affixes": [10, 122, 124, 121]
         },
         {
-          "dps": 3134,
-          "hps": 1666,
-          "deaths": 2,
-          "keyLevel": 17,
-          "inTime": 1,
-          "reportID": "2463R1LmBDjWGcNy",
-          "fightID": 18,
-          "affixes": [10, 8, 14, 121]
-        },
-        {
           "dps": 3129,
           "hps": 1475,
           "deaths": 0,
           "keyLevel": 17,
           "inTime": 1,
-          "reportID": "4xpdf9hPG2rgNbLB",
-          "fightID": 33,
+          "reportID": "NxDHWYZQBFGJ1gd2",
+          "fightID": 43,
           "affixes": [9, 122, 4, 121]
         },
         {
-          "dps": 3370,
-          "hps": 2244,
+          "dps": 3457,
+          "hps": 2325,
           "deaths": 0,
-          "keyLevel": 17,
+          "keyLevel": 16,
           "inTime": 1,
-          "reportID": "wRhyL17qPcXgHB6W",
-          "fightID": 1,
+          "reportID": "jycq3XznP1Z7xRBL",
+          "fightID": 16,
+          "affixes": [10, 11, 3, 121]
+        },
+        {
+          "dps": 3105,
+          "hps": 2044,
+          "deaths": 1,
+          "keyLevel": 16,
+          "inTime": 1,
+          "reportID": "gy7zDCRH9LGYfpA2",
+          "fightID": 18,
           "affixes": [9, 6, 14, 121]
+        },
+        {
+          "dps": 3077,
+          "hps": 2291,
+          "deaths": 2,
+          "keyLevel": 16,
+          "inTime": 0,
+          "reportID": "FnJVhmRLt6Cdb9jw",
+          "fightID": 4,
+          "affixes": [9, 11, 13, 121]
         },
         {
           "dps": 2594,
@@ -1619,8 +1599,8 @@
           "deaths": 4,
           "keyLevel": 16,
           "inTime": 0,
-          "reportID": "acTKF8Jg2xYfmZGQ",
-          "fightID": 12,
+          "reportID": "nqZx6VphrBGK2gCz",
+          "fightID": 1,
           "affixes": [9, 6, 13, 121]
         },
         {
@@ -1634,33 +1614,13 @@
           "affixes": [9, 6, 13, 121]
         },
         {
-          "dps": 3077,
-          "hps": 2291,
-          "deaths": 2,
-          "keyLevel": 16,
-          "inTime": 0,
-          "reportID": "FnJVhmRLt6Cdb9jw",
-          "fightID": 4,
-          "affixes": [9, 11, 13, 121]
-        },
-        {
-          "dps": 3457,
-          "hps": 2325,
-          "deaths": 0,
-          "keyLevel": 16,
-          "inTime": 1,
-          "reportID": "jycq3XznP1Z7xRBL",
-          "fightID": 16,
-          "affixes": [10, 11, 3, 121]
-        },
-        {
           "dps": 3440,
           "hps": 1816,
           "deaths": 2,
           "keyLevel": 16,
           "inTime": 2,
-          "reportID": "PRx1KBvp3qJkmf9V",
-          "fightID": 5,
+          "reportID": "D9GnhPNdpYLq2BW6",
+          "fightID": 7,
           "affixes": [10, 8, 14, 121]
         },
         {
@@ -1668,7 +1628,7 @@
           "hps": 2197,
           "deaths": 2,
           "keyLevel": 15,
-          "inTime": 1,
+          "inTime": 0,
           "reportID": "4DynJQxjZ3pKMgWv",
           "fightID": 4,
           "affixes": [9, 7, 124, 121]
@@ -1684,14 +1644,14 @@
           "affixes": [10, 8, 12, 121]
         },
         {
-          "dps": 3512,
-          "hps": 1624,
+          "dps": 3612,
+          "hps": 2250,
           "deaths": 0,
           "keyLevel": 15,
           "inTime": 2,
-          "reportID": "8RjnQPXz749gWHM3",
-          "fightID": 5,
-          "affixes": [9, 7, 4, 121]
+          "reportID": "nzJ6dytBGHm4V17D",
+          "fightID": 17,
+          "affixes": [10, 122, 124, 121]
         },
         {
           "dps": 3535,
@@ -1704,23 +1664,33 @@
           "affixes": [10, 122, 124, 121]
         },
         {
-          "dps": 3612,
-          "hps": 2250,
+          "dps": 3512,
+          "hps": 1624,
           "deaths": 0,
           "keyLevel": 15,
           "inTime": 2,
-          "reportID": "nzJ6dytBGHm4V17D",
-          "fightID": 17,
-          "affixes": [10, 122, 124, 121]
+          "reportID": "8RjnQPXz749gWHM3",
+          "fightID": 5,
+          "affixes": [9, 7, 4, 121]
         },
         {
-          "dps": 3098,
-          "hps": 1272,
+          "dps": 2971,
+          "hps": 1553,
+          "deaths": 0,
+          "keyLevel": 15,
+          "inTime": 1,
+          "reportID": "nyNMbpmLHjR9KQGf",
+          "fightID": 7,
+          "affixes": [9, 122, 4, 121]
+        },
+        {
+          "dps": 3195,
+          "hps": 1435,
           "deaths": 0,
           "keyLevel": 14,
           "inTime": 2,
-          "reportID": "hVxv9z4dNQtFpjJ6",
-          "fightID": 14,
+          "reportID": "zXh1qGkayHdLFRYp",
+          "fightID": 5,
           "affixes": [9, 122, 4, 121]
         },
         {
@@ -1734,64 +1704,14 @@
           "affixes": [9, 122, 4, 121]
         },
         {
-          "dps": 3195,
-          "hps": 1435,
-          "deaths": 0,
-          "keyLevel": 14,
-          "inTime": 2,
-          "reportID": "hgzHFKbLPNdMW1qR",
-          "fightID": 1,
-          "affixes": [9, 122, 4, 121]
-        },
-        {
-          "dps": 2258,
-          "hps": 1394,
-          "deaths": 4,
-          "keyLevel": 13,
-          "inTime": 0,
-          "reportID": "zngPJ1wDXQ79FvdR",
-          "fightID": 28,
-          "affixes": [9, 7, 124, 121]
-        },
-        {
-          "dps": 3030,
-          "hps": 1435,
-          "deaths": 1,
-          "keyLevel": 12,
-          "inTime": 1,
-          "reportID": "wWrBPxTfQn9J6apt",
-          "fightID": 16,
-          "affixes": [9, 7, 124, 121]
-        },
-        {
-          "dps": 2471,
-          "hps": 1528,
-          "deaths": 0,
-          "keyLevel": 11,
-          "inTime": 0,
-          "reportID": "ZtKRLV6hnJF4QCbf",
-          "fightID": 4,
-          "affixes": [10, 11, 3, 121]
-        },
-        {
-          "dps": 2550,
-          "hps": 1440,
-          "deaths": 0,
-          "keyLevel": 11,
-          "inTime": 1,
-          "reportID": "6p49NCbaFmd2gwDh",
-          "fightID": 4,
-          "affixes": [10, 11, 3, 121]
-        },
-        {
-          "dps": 2965,
-          "hps": 1165,
+          "dps": 3791,
+          "hps": 1815,
           "deaths": 0,
           "keyLevel": 11,
           "inTime": 2,
-          "reportID": "CZJFkRy2bMqndt7T",
-          "fightID": 1,
-          "affixes": [9, 122, 4, 121]
+          "reportID": "JpDrQGCVMBn72y9q",
+          "fightID": 7,
+          "affixes": [9, 6, 14, 121]
         },
         {
           "dps": 3060,
@@ -1804,14 +1724,34 @@
           "affixes": [9, 6, 13, 121]
         },
         {
-          "dps": 3791,
-          "hps": 1815,
+          "dps": 2965,
+          "hps": 1165,
           "deaths": 0,
           "keyLevel": 11,
           "inTime": 2,
-          "reportID": "JpDrQGCVMBn72y9q",
-          "fightID": 7,
-          "affixes": [9, 6, 14, 121]
+          "reportID": "CZJFkRy2bMqndt7T",
+          "fightID": 1,
+          "affixes": [9, 122, 4, 121]
+        },
+        {
+          "dps": 2550,
+          "hps": 1440,
+          "deaths": 0,
+          "keyLevel": 11,
+          "inTime": 1,
+          "reportID": "6p49NCbaFmd2gwDh",
+          "fightID": 4,
+          "affixes": [10, 11, 3, 121]
+        },
+        {
+          "dps": 2471,
+          "hps": 1528,
+          "deaths": 0,
+          "keyLevel": 11,
+          "inTime": 0,
+          "reportID": "ZtKRLV6hnJF4QCbf",
+          "fightID": 4,
+          "affixes": [10, 11, 3, 121]
         }
       ]
     ],
@@ -1819,73 +1759,13 @@
       12291,
       [
         {
-          "dps": 2925,
-          "hps": 2220,
-          "deaths": 0,
-          "keyLevel": 21,
-          "inTime": 1,
-          "reportID": "6TDmPGCXyZWRKpjV",
-          "fightID": 13,
-          "affixes": [10, 11, 3, 121]
-        },
-        {
-          "dps": 2758,
-          "hps": 2092,
-          "deaths": 3,
-          "keyLevel": 20,
-          "inTime": 1,
-          "reportID": "nzJ6dytBGHm4V17D",
-          "fightID": 7,
-          "affixes": [10, 122, 124, 121]
-        },
-        {
-          "dps": 2754,
-          "hps": 1987,
-          "deaths": 2,
-          "keyLevel": 20,
-          "inTime": 0,
-          "reportID": "JmQ2zwK9N6q1BRtZ",
-          "fightID": 3,
-          "affixes": [10, 122, 124, 121]
-        },
-        {
-          "dps": 2793,
-          "hps": 2213,
+          "dps": 3179,
+          "hps": 2222,
           "deaths": 0,
           "keyLevel": 20,
-          "inTime": 0,
-          "reportID": "7mwhj3ndQYZpxMzL",
+          "inTime": 1,
+          "reportID": "YnJfAac3wZMPxRKQ",
           "fightID": 1,
-          "affixes": [10, 8, 12, 121]
-        },
-        {
-          "dps": 2768,
-          "hps": 1934,
-          "deaths": 1,
-          "keyLevel": 20,
-          "inTime": 1,
-          "reportID": "nzJ6dytBGHm4V17D",
-          "fightID": 3,
-          "affixes": [10, 122, 124, 121]
-        },
-        {
-          "dps": 2760,
-          "hps": 2036,
-          "deaths": 3,
-          "keyLevel": 20,
-          "inTime": 1,
-          "reportID": "zBDaJ6LAhpPNgcn8",
-          "fightID": 6,
-          "affixes": [10, 8, 12, 121]
-        },
-        {
-          "dps": 2811,
-          "hps": 2133,
-          "deaths": 1,
-          "keyLevel": 20,
-          "inTime": 1,
-          "reportID": "9PQnVa6ptvFgcyW2",
-          "fightID": 19,
           "affixes": [10, 11, 3, 121]
         },
         {
@@ -1899,14 +1779,64 @@
           "affixes": [10, 11, 3, 121]
         },
         {
-          "dps": 3179,
-          "hps": 2222,
-          "deaths": 0,
+          "dps": 2811,
+          "hps": 2133,
+          "deaths": 1,
           "keyLevel": 20,
           "inTime": 1,
-          "reportID": "YnJfAac3wZMPxRKQ",
-          "fightID": 1,
+          "reportID": "9PQnVa6ptvFgcyW2",
+          "fightID": 19,
           "affixes": [10, 11, 3, 121]
+        },
+        {
+          "dps": 2760,
+          "hps": 2036,
+          "deaths": 3,
+          "keyLevel": 20,
+          "inTime": 1,
+          "reportID": "zBDaJ6LAhpPNgcn8",
+          "fightID": 6,
+          "affixes": [10, 8, 12, 121]
+        },
+        {
+          "dps": 2793,
+          "hps": 2213,
+          "deaths": 0,
+          "keyLevel": 20,
+          "inTime": 0,
+          "reportID": "vGZcg4Pyprb3kQ6M",
+          "fightID": 2,
+          "affixes": [10, 8, 12, 121]
+        },
+        {
+          "dps": 2758,
+          "hps": 2092,
+          "deaths": 3,
+          "keyLevel": 20,
+          "inTime": 0,
+          "reportID": "nzJ6dytBGHm4V17D",
+          "fightID": 7,
+          "affixes": [10, 122, 124, 121]
+        },
+        {
+          "dps": 2768,
+          "hps": 1934,
+          "deaths": 1,
+          "keyLevel": 20,
+          "inTime": 1,
+          "reportID": "nzJ6dytBGHm4V17D",
+          "fightID": 3,
+          "affixes": [10, 122, 124, 121]
+        },
+        {
+          "dps": 2754,
+          "hps": 1987,
+          "deaths": 2,
+          "keyLevel": 20,
+          "inTime": 0,
+          "reportID": "JmQ2zwK9N6q1BRtZ",
+          "fightID": 3,
+          "affixes": [10, 122, 124, 121]
         },
         {
           "dps": 3002,
@@ -1919,14 +1849,14 @@
           "affixes": [10, 123, 3, 121]
         },
         {
-          "dps": 2520,
-          "hps": 1410,
-          "deaths": 4,
+          "dps": 3036,
+          "hps": 1803,
+          "deaths": 0,
           "keyLevel": 18,
-          "inTime": 0,
-          "reportID": "JkFfrDcVAd71Hpxq",
-          "fightID": 2,
-          "affixes": [10, 8, 14, 121]
+          "inTime": 1,
+          "reportID": "2pkctmNVg6ryL7f8",
+          "fightID": 1,
+          "affixes": [10, 123, 3, 121]
         },
         {
           "dps": 2937,
@@ -1939,14 +1869,14 @@
           "affixes": [10, 123, 3, 121]
         },
         {
-          "dps": 3036,
-          "hps": 1803,
-          "deaths": 0,
+          "dps": 2520,
+          "hps": 1410,
+          "deaths": 4,
           "keyLevel": 18,
-          "inTime": 1,
-          "reportID": "2pkctmNVg6ryL7f8",
-          "fightID": 1,
-          "affixes": [10, 123, 3, 121]
+          "inTime": 0,
+          "reportID": "JkFfrDcVAd71Hpxq",
+          "fightID": 2,
+          "affixes": [10, 8, 14, 121]
         },
         {
           "dps": 2638,
@@ -1969,36 +1899,6 @@
           "affixes": [9, 7, 4, 121]
         },
         {
-          "dps": 2637,
-          "hps": 1276,
-          "deaths": 1,
-          "keyLevel": 16,
-          "inTime": 1,
-          "reportID": "4xpdf9hPG2rgNbLB",
-          "fightID": 28,
-          "affixes": [9, 122, 4, 121]
-        },
-        {
-          "dps": 2656,
-          "hps": 1850,
-          "deaths": 0,
-          "keyLevel": 16,
-          "inTime": 1,
-          "reportID": "YPq3nQr2FyTgCtHj",
-          "fightID": 4,
-          "affixes": [10, 122, 124, 121]
-        },
-        {
-          "dps": 2701,
-          "hps": 1305,
-          "deaths": 1,
-          "keyLevel": 16,
-          "inTime": 1,
-          "reportID": "vJCpgmQH2wd9BD34",
-          "fightID": 4,
-          "affixes": [10, 8, 14, 121]
-        },
-        {
           "dps": 2715,
           "hps": 1534,
           "deaths": 1,
@@ -2007,6 +1907,36 @@
           "reportID": "PRx1KBvp3qJkmf9V",
           "fightID": 6,
           "affixes": [10, 8, 14, 121]
+        },
+        {
+          "dps": 2701,
+          "hps": 1305,
+          "deaths": 1,
+          "keyLevel": 16,
+          "inTime": 1,
+          "reportID": "C41N963vbVncHRda",
+          "fightID": 1,
+          "affixes": [10, 8, 14, 121]
+        },
+        {
+          "dps": 2637,
+          "hps": 1276,
+          "deaths": 1,
+          "keyLevel": 16,
+          "inTime": 1,
+          "reportID": "NxDHWYZQBFGJ1gd2",
+          "fightID": 39,
+          "affixes": [9, 122, 4, 121]
+        },
+        {
+          "dps": 2816,
+          "hps": 1994,
+          "deaths": 0,
+          "keyLevel": 15,
+          "inTime": 1,
+          "reportID": "h87BAgpDTnbWQk9N",
+          "fightID": 1,
+          "affixes": [9, 7, 124, 121]
         },
         {
           "dps": 2452,
@@ -2019,16 +1949,6 @@
           "affixes": [9, 7, 124, 121]
         },
         {
-          "dps": 2523,
-          "hps": 1192,
-          "deaths": 6,
-          "keyLevel": 15,
-          "inTime": 0,
-          "reportID": "gk6TA7hRXptMbQc3",
-          "fightID": 2,
-          "affixes": [10, 123, 12, 121]
-        },
-        {
           "dps": 2650,
           "hps": 1458,
           "deaths": 2,
@@ -2039,16 +1959,6 @@
           "affixes": [9, 7, 4, 121]
         },
         {
-          "dps": 2706,
-          "hps": 2150,
-          "deaths": 1,
-          "keyLevel": 15,
-          "inTime": 1,
-          "reportID": "h87BAgpDTnbWQk9N",
-          "fightID": 9,
-          "affixes": [9, 7, 124, 121]
-        },
-        {
           "dps": 2755,
           "hps": 1582,
           "deaths": 0,
@@ -2056,6 +1966,26 @@
           "inTime": 1,
           "reportID": "NqpKyAdCJvQzTt7B",
           "fightID": 1,
+          "affixes": [9, 7, 4, 121]
+        },
+        {
+          "dps": 2523,
+          "hps": 1192,
+          "deaths": 6,
+          "keyLevel": 15,
+          "inTime": 0,
+          "reportID": "gk6TA7hRXptMbQc3",
+          "fightID": 2,
+          "affixes": [10, 123, 12, 121]
+        },
+        {
+          "dps": 2747,
+          "hps": 1501,
+          "deaths": 1,
+          "keyLevel": 14,
+          "inTime": 2,
+          "reportID": "NY7fdKMABHGktqFn",
+          "fightID": 11,
           "affixes": [9, 7, 4, 121]
         },
         {
@@ -2069,6 +1999,16 @@
           "affixes": [9, 122, 4, 121]
         },
         {
+          "dps": 2789,
+          "hps": 1267,
+          "deaths": 0,
+          "keyLevel": 13,
+          "inTime": 1,
+          "reportID": "gctz3A2LwXMynjvY",
+          "fightID": 1,
+          "affixes": [10, 123, 12, 121]
+        },
+        {
           "dps": 2788,
           "hps": 1341,
           "deaths": 4,
@@ -2079,14 +2019,14 @@
           "affixes": [10, 123, 12, 121]
         },
         {
-          "dps": 2434,
-          "hps": 1309,
+          "dps": 3057,
+          "hps": 1293,
           "deaths": 0,
           "keyLevel": 12,
           "inTime": 1,
-          "reportID": "kZWMCyhQYtXHqacd",
-          "fightID": 3,
-          "affixes": [9, 7, 124, 121]
+          "reportID": "Kmn9r1bWyqh4AX6j",
+          "fightID": 1,
+          "affixes": [10, 123, 12, 121]
         },
         {
           "dps": 2609,
@@ -2099,24 +2039,34 @@
           "affixes": [10, 123, 12, 121]
         },
         {
-          "dps": 2768,
-          "hps": 1045,
-          "deaths": 0,
-          "keyLevel": 11,
+          "dps": 2303,
+          "hps": 1266,
+          "deaths": 3,
+          "keyLevel": 12,
           "inTime": 1,
-          "reportID": "q2bkxF8W7hyrGtV4",
-          "fightID": 1,
-          "affixes": [10, 123, 12, 121]
+          "reportID": "hpctTLxqYK132ZFb",
+          "fightID": 4,
+          "affixes": [9, 7, 124, 121]
         },
         {
-          "dps": 2842,
-          "hps": 1305,
-          "deaths": 2,
+          "dps": 2434,
+          "hps": 1309,
+          "deaths": 0,
+          "keyLevel": 12,
+          "inTime": 1,
+          "reportID": "kZWMCyhQYtXHqacd",
+          "fightID": 3,
+          "affixes": [9, 7, 124, 121]
+        },
+        {
+          "dps": 3257,
+          "hps": 1662,
+          "deaths": 0,
           "keyLevel": 11,
           "inTime": 2,
-          "reportID": "2yCaPqVFxWmv4JMY",
-          "fightID": 1,
-          "affixes": [10, 123, 12, 121]
+          "reportID": "Z4kRbJr7yWQagTD3",
+          "fightID": 3,
+          "affixes": [10, 123, 3, 121]
         },
         {
           "dps": 3004,
@@ -2127,6 +2077,26 @@
           "reportID": "LXkbqwj469HVFfzG",
           "fightID": 5,
           "affixes": [10, 8, 14, 121]
+        },
+        {
+          "dps": 2768,
+          "hps": 1045,
+          "deaths": 0,
+          "keyLevel": 11,
+          "inTime": 1,
+          "reportID": "q2bkxF8W7hyrGtV4",
+          "fightID": 1,
+          "affixes": [10, 123, 12, 121]
+        },
+        {
+          "dps": 3027,
+          "hps": 1168,
+          "deaths": 1,
+          "keyLevel": 11,
+          "inTime": 1,
+          "reportID": "zGaWBLvhqbFP6V83",
+          "fightID": 6,
+          "affixes": [10, 123, 12, 121]
         },
         {
           "dps": 2996,
@@ -2143,6 +2113,36 @@
     [
       12293,
       [
+        {
+          "dps": 2955,
+          "hps": 2443,
+          "deaths": 2,
+          "keyLevel": 21,
+          "inTime": 0,
+          "reportID": "8yJxhQqPmDbj3ABT",
+          "fightID": 44,
+          "affixes": [10, 11, 3, 121]
+        },
+        {
+          "dps": 3002,
+          "hps": 2432,
+          "deaths": 0,
+          "keyLevel": 20,
+          "inTime": 1,
+          "reportID": "bZv6m1ANXkgyDHad",
+          "fightID": 10,
+          "affixes": [10, 11, 3, 121]
+        },
+        {
+          "dps": 2853,
+          "hps": 2408,
+          "deaths": 1,
+          "keyLevel": 20,
+          "inTime": 0,
+          "reportID": "HGkyah7VXJNBx6YF",
+          "fightID": 5,
+          "affixes": [9, 6, 14, 121]
+        },
         {
           "dps": 2665,
           "hps": 2204,
@@ -2164,61 +2164,31 @@
           "affixes": [9, 11, 13, 121]
         },
         {
-          "dps": 2794,
-          "hps": 2209,
-          "deaths": 0,
-          "keyLevel": 20,
-          "inTime": 0,
-          "reportID": "TdNhm9RnYgrwDLxH",
-          "fightID": 5,
-          "affixes": [9, 11, 13, 121]
-        },
-        {
-          "dps": 2853,
-          "hps": 2408,
-          "deaths": 1,
-          "keyLevel": 20,
-          "inTime": 0,
-          "reportID": "7Pqk2ygwTzd9J8CG",
-          "fightID": 24,
-          "affixes": [9, 6, 14, 121]
-        },
-        {
-          "dps": 2868,
-          "hps": 1866,
-          "deaths": 0,
-          "keyLevel": 20,
-          "inTime": 0,
-          "reportID": "9PQnVa6ptvFgcyW2",
-          "fightID": 17,
-          "affixes": [10, 11, 3, 121]
-        },
-        {
-          "dps": 2985,
-          "hps": 2482,
-          "deaths": 0,
-          "keyLevel": 20,
-          "inTime": 0,
-          "reportID": "7Pqk2ygwTzd9J8CG",
-          "fightID": 26,
-          "affixes": [9, 6, 14, 121]
-        },
-        {
-          "dps": 3002,
-          "hps": 2432,
-          "deaths": 0,
-          "keyLevel": 20,
+          "dps": 2916,
+          "hps": 2472,
+          "deaths": 2,
+          "keyLevel": 19,
           "inTime": 1,
-          "reportID": "bZv6m1ANXkgyDHad",
-          "fightID": 10,
+          "reportID": "MDF7g3JLzjR2xGHK",
+          "fightID": 1,
           "affixes": [10, 11, 3, 121]
+        },
+        {
+          "dps": 2860,
+          "hps": 2306,
+          "deaths": 0,
+          "keyLevel": 19,
+          "inTime": 1,
+          "reportID": "mPJgQjHwnzRDBqfN",
+          "fightID": 12,
+          "affixes": [10, 8, 12, 121]
         },
         {
           "dps": 2639,
           "hps": 1970,
           "deaths": 0,
           "keyLevel": 19,
-          "inTime": 1,
+          "inTime": 0,
           "reportID": "TdNhm9RnYgrwDLxH",
           "fightID": 3,
           "affixes": [9, 11, 13, 121]
@@ -2229,29 +2199,9 @@
           "deaths": 0,
           "keyLevel": 19,
           "inTime": 1,
-          "reportID": "JmQ2zwK9N6q1BRtZ",
-          "fightID": 2,
+          "reportID": "7MKqx2FDjnVyfA9c",
+          "fightID": 4,
           "affixes": [10, 122, 124, 121]
-        },
-        {
-          "dps": 2860,
-          "hps": 2306,
-          "deaths": 0,
-          "keyLevel": 19,
-          "inTime": 1,
-          "reportID": "vHk8TRgL297wPzYA",
-          "fightID": 10,
-          "affixes": [10, 8, 12, 121]
-        },
-        {
-          "dps": 2732,
-          "hps": 1925,
-          "deaths": 0,
-          "keyLevel": 17,
-          "inTime": 1,
-          "reportID": "zBDaJ6LAhpPNgcn8",
-          "fightID": 14,
-          "affixes": [10, 8, 12, 121]
         },
         {
           "dps": 2871,
@@ -2264,6 +2214,26 @@
           "affixes": [9, 6, 14, 121]
         },
         {
+          "dps": 2732,
+          "hps": 1925,
+          "deaths": 0,
+          "keyLevel": 17,
+          "inTime": 1,
+          "reportID": "vGZcg4Pyprb3kQ6M",
+          "fightID": 16,
+          "affixes": [10, 8, 12, 121]
+        },
+        {
+          "dps": 2808,
+          "hps": 1764,
+          "deaths": 1,
+          "keyLevel": 17,
+          "inTime": 1,
+          "reportID": "mq2wJXgQPtRDkF7Y",
+          "fightID": 1,
+          "affixes": [10, 123, 3, 121]
+        },
+        {
           "dps": 2440,
           "hps": 1961,
           "deaths": 1,
@@ -2272,16 +2242,6 @@
           "reportID": "YcKyAaMDZrh19qwt",
           "fightID": 1,
           "affixes": [10, 122, 124, 121]
-        },
-        {
-          "dps": 2627,
-          "hps": 1784,
-          "deaths": 3,
-          "keyLevel": 16,
-          "inTime": 1,
-          "reportID": "W9THJMLk26vcdQC7",
-          "fightID": 2,
-          "affixes": [10, 8, 14, 121]
         },
         {
           "dps": 2690,
@@ -2294,54 +2254,14 @@
           "affixes": [9, 6, 13, 121]
         },
         {
-          "dps": 2440,
-          "hps": 1739,
-          "deaths": 2,
-          "keyLevel": 15,
+          "dps": 2627,
+          "hps": 1784,
+          "deaths": 3,
+          "keyLevel": 16,
           "inTime": 1,
-          "reportID": "PRx1KBvp3qJkmf9V",
+          "reportID": "W9THJMLk26vcdQC7",
           "fightID": 2,
           "affixes": [10, 8, 14, 121]
-        },
-        {
-          "dps": 2631,
-          "hps": 1666,
-          "deaths": 2,
-          "keyLevel": 15,
-          "inTime": 1,
-          "reportID": "VT7XzwRCGQBra1ht",
-          "fightID": 1,
-          "affixes": [9, 6, 13, 121]
-        },
-        {
-          "dps": 2653,
-          "hps": 1434,
-          "deaths": 0,
-          "keyLevel": 15,
-          "inTime": 0,
-          "reportID": "gctz3A2LwXMynjvY",
-          "fightID": 6,
-          "affixes": [10, 123, 12, 121]
-        },
-        {
-          "dps": 2702,
-          "hps": 1392,
-          "deaths": 0,
-          "keyLevel": 15,
-          "inTime": 1,
-          "reportID": "NrmzLYnQZAxG9DVK",
-          "fightID": 1,
-          "affixes": [9, 6, 13, 121]
-        },
-        {
-          "dps": 2818,
-          "hps": 1528,
-          "deaths": 0,
-          "keyLevel": 15,
-          "inTime": 1,
-          "reportID": "mfw2gMz8tbaVy6n9",
-          "fightID": 3,
-          "affixes": [9, 6, 13, 121]
         },
         {
           "dps": 2919,
@@ -2354,6 +2274,36 @@
           "affixes": [9, 7, 4, 121]
         },
         {
+          "dps": 2818,
+          "hps": 1528,
+          "deaths": 0,
+          "keyLevel": 15,
+          "inTime": 1,
+          "reportID": "9rjZRkTgXPfyVK46",
+          "fightID": 2,
+          "affixes": [9, 6, 13, 121]
+        },
+        {
+          "dps": 2440,
+          "hps": 1739,
+          "deaths": 2,
+          "keyLevel": 15,
+          "inTime": 1,
+          "reportID": "D9GnhPNdpYLq2BW6",
+          "fightID": 2,
+          "affixes": [10, 8, 14, 121]
+        },
+        {
+          "dps": 2440,
+          "hps": 1332,
+          "deaths": 1,
+          "keyLevel": 15,
+          "inTime": 1,
+          "reportID": "hVxv9z4dNQtFpjJ6",
+          "fightID": 18,
+          "affixes": [9, 122, 4, 121]
+        },
+        {
           "dps": 2570,
           "hps": 1938,
           "deaths": 2,
@@ -2362,16 +2312,6 @@
           "reportID": "Va4hnX9BTbjt6Ldf",
           "fightID": 1,
           "affixes": [10, 8, 12, 121]
-        },
-        {
-          "dps": 2700,
-          "hps": 1642,
-          "deaths": 0,
-          "keyLevel": 14,
-          "inTime": 1,
-          "reportID": "NY7fdKMABHGktqFn",
-          "fightID": 9,
-          "affixes": [9, 7, 4, 121]
         },
         {
           "dps": 2203,
@@ -2384,16 +2324,6 @@
           "affixes": [9, 7, 124, 121]
         },
         {
-          "dps": 1812,
-          "hps": 1270,
-          "deaths": 0,
-          "keyLevel": 10,
-          "inTime": 1,
-          "reportID": "h3rgVK1Ydj76QaFB",
-          "fightID": 1,
-          "affixes": [9, 7, 124, 121]
-        },
-        {
           "dps": 2674,
           "hps": 1205,
           "deaths": 0,
@@ -2402,6 +2332,16 @@
           "reportID": "zVwLrqmjyXQ8JvZ1",
           "fightID": 1,
           "affixes": [10, 123, 12, 121]
+        },
+        {
+          "dps": 1812,
+          "hps": 1270,
+          "deaths": 0,
+          "keyLevel": 10,
+          "inTime": 1,
+          "reportID": "h3rgVK1Ydj76QaFB",
+          "fightID": 1,
+          "affixes": [9, 7, 124, 121]
         }
       ]
     ]
