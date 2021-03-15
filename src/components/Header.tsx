@@ -12,12 +12,10 @@ import Head from "next/head";
 import NextLink from "next/link";
 
 import type { MaybeCharacter } from "../hooks/useCharacterParams";
+import { formatCharacter, capitalize } from "../utils/format";
 import type { CharacterData } from "../utils/lookup";
 
 type HeaderProps = CharacterData & MaybeCharacter;
-
-const capitalize = (str: string) =>
-  str.slice(0, 1).toUpperCase() + str.slice(1);
 
 export function Header({
   thumbnail_url,
@@ -36,9 +34,7 @@ export function Header({
     tank: mythic_plus_scores.tank,
   };
 
-  const title = `${capitalize(character)} @ ${capitalize(
-    realm
-  )}-${region.toUpperCase()}`;
+  const title = formatCharacter({ character, realm, region });
 
   return (
     <>

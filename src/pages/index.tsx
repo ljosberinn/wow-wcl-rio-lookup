@@ -14,6 +14,9 @@ import { useRouter } from "next/router";
 import React, { useState } from "react";
 import type { ChangeEvent, FormEvent } from "react";
 
+import { SearchHistory } from "../components/SearchHistory";
+import { addToStorageHistory, getHistory } from "../utils/localStorage";
+
 // raider.io/characters/ length === 21
 const URL_MINLENGTH = 21;
 
@@ -60,11 +63,18 @@ export default function Index(): JSX.Element {
         .split("/");
 
       // eslint-disable-next-line no-console
-      push(`/${region}/${realm}/${name}`).catch(() => {
-        toast({
-          description: "Something went wrong! Please try again.",
+      push(`/${region}/${realm}/${name}`)
+        // eslint-disable-next-line promise/prefer-await-to-then
+        .then((navigated) => {
+          if (navigated) {
+            addToStorageHistory({ region, realm, name });
+          }
+        })
+        .catch(() => {
+          toast({
+            description: "Something went wrong! Please try again.",
+          });
         });
-      });
     } catch {
       toast({
         description:
@@ -76,53 +86,56 @@ export default function Index(): JSX.Element {
   const isValidUrl = validateUrl(value);
 
   return (
-    <form onSubmit={handleSubmit}>
-      <fieldset>
-        <FormControl id="text" isRequired isInvalid={!isValidUrl}>
-          <FormLabel>Raider.io URL</FormLabel>
+    <>
+      <form onSubmit={handleSubmit}>
+        <fieldset>
+          <FormControl id="text" isRequired isInvalid={!isValidUrl}>
+            <FormLabel>Raider.io URL</FormLabel>
 
-          <Flex>
-            <Input
-              type="text"
-              value={value}
-              onChange={handleChange}
-              name="rio-url"
-            />
+            <Flex>
+              <Input
+                type="text"
+                value={value}
+                onChange={handleChange}
+                name="rio-url"
+              />
 
-            <Button
-              type="submit"
-              ml={2}
-              disabled={!isValidUrl || value.length < URL_MINLENGTH}
-            >
-              Search
-            </Button>
-          </Flex>
+              <Button
+                type="submit"
+                ml={2}
+                disabled={!isValidUrl || value.length < URL_MINLENGTH}
+              >
+                Search
+              </Button>
+            </Flex>
 
-          <FormErrorMessage>
-            This does not appear to be a raider.io URL...
-          </FormErrorMessage>
+            <FormErrorMessage>
+              This does not appear to be a raider.io URL...
+            </FormErrorMessage>
 
-          <FormHelperText>
-            Simply paste a Raider.io profile url, e.g.{" "}
-            <Link
-              href="https://raider.io/characters/eu/blackmoore/Xepheris"
-              fontStyle="italic"
-              target="_blank"
-              rel="nooopener noreferrer"
-              textDecoration="underline"
-            >
-              https://raider.io/characters/eu/blackmoore/Xepheris
-            </Link>{" "}
-            or check out{" "}
-            <NextLink passHref href="/eu/blackmoore/xepheris">
-              <Link fontStyle="italic" textDecoration="underline">
-                this demo
-              </Link>
-            </NextLink>
-            .
-          </FormHelperText>
-        </FormControl>
-      </fieldset>
-    </form>
+            <FormHelperText>
+              Simply paste a Raider.io profile url, e.g.{" "}
+              <Link
+                href="https://raider.io/characters/eu/blackmoore/Xepheris"
+                fontStyle="italic"
+                target="_blank"
+                rel="nooopener noreferrer"
+                textDecoration="underline"
+              >
+                https://raider.io/characters/eu/blackmoore/Xepheris
+              </Link>{" "}
+              or check out{" "}
+              <NextLink passHref href="/eu/blackmoore/xepheris">
+                <Link fontStyle="italic" textDecoration="underline">
+                  this demo
+                </Link>
+              </NextLink>
+              .
+            </FormHelperText>
+          </FormControl>
+        </fieldset>
+      </form>
+      <SearchHistory />
+    </>
   );
 }
