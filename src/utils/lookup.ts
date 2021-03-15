@@ -390,7 +390,7 @@ const getParses = async (
               return null;
             }
 
-            const fight = report.fights.find((fight) => fight.id === fightID);
+            const fight = report?.fights.find((fight) => fight.id === fightID);
 
             // skip broken requests as well as logs for keys under level 15
             if (
