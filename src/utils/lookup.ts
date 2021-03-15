@@ -473,7 +473,7 @@ export async function lookup({
     role: rioData.active_spec_role,
   });
 
-  const idReportTuples = extractWclDungeonData(reports.slice(0, 10));
+  const idReportTuples = extractWclDungeonData(reports);
   const wclData = await getParses(idReportTuples, character.toLowerCase());
 
   return {
