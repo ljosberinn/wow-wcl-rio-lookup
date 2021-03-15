@@ -160,7 +160,7 @@ const dungeonMeta = dungeons.reduce<Record<number, [number, number, number]>>(
 
 type WclDungeonData = [
   number,
-  Pick<WarcraftLogsReportEntry, "fightID" | "reportID">[]
+  Pick<WarcraftLogsReportEntry, "fightID" | "reportID" | "startTime">[]
 ][];
 
 const extractWclDungeonData = (reports: WarcraftLogsReportEntry[]) => {
@@ -188,9 +188,10 @@ const extractWclDungeonData = (reports: WarcraftLogsReportEntry[]) => {
         return -1;
       });
 
-      const sanitized = sorted.map(({ fightID, reportID }) => ({
+      const sanitized = sorted.map(({ fightID, reportID, startTime }) => ({
         fightID,
         reportID,
+        startTime,
       }));
 
       return [...carry, [id, sanitized]];
@@ -348,9 +349,31 @@ export type SanitizedWclDataset = {
   reportID: string;
   affixes: number[];
   inTime: 0 | 1 | 2 | 3;
+  timestamp: number;
 };
 
 export type SanitizedWclData = [number, SanitizedWclDataset[]];
+
+const isDungeonInTime = ({
+  boss,
+  completionTime,
+}: Pick<Required<Report["fights"][number]>, "boss" | "completionTime">) => {
+  const [plus1, plus2, plus3] = dungeonMeta[boss];
+
+  if (completionTime <= plus3) {
+    return 3;
+  }
+
+  if (completionTime <= plus2) {
+    return 2;
+  }
+
+  if (completionTime <= plus1) {
+    return 1;
+  }
+
+  return 0;
+};
 
 const getParses = async (
   tuples: WclDungeonData,
@@ -360,16 +383,14 @@ const getParses = async (
     tuples.map(
       async ([id, reports]): Promise<SanitizedWclData> => {
         const data = await Promise.all<SanitizedWclDataset | null>(
-          reports.map(async ({ fightID, reportID }) => {
+          reports.map(async ({ fightID, reportID, startTime }) => {
             const report = await getReport(reportID);
 
             if (!report) {
               return null;
             }
 
-            const fight = (report.fights ?? []).find(
-              (fight) => fight.id === fightID
-            );
+            const fight = report.fights.find((fight) => fight.id === fightID);
 
             // skip broken requests as well as logs for keys under level 15
             if (
@@ -384,7 +405,7 @@ const getParses = async (
             const summary = await getFightSummary(reportID, fight);
 
             // skip broken requests as well as broken logs
-            if (!summary || summary.totalTime < 10 * 60 * 1000) {
+            if (!summary || summary.totalTime < 5 * 60 * 1000) {
               return null;
             }
 
@@ -407,16 +428,10 @@ const getParses = async (
                 (event) => event.name.toLowerCase() === characterName
               )?.length ?? 0;
 
-            const [plus1, plus2, plus3] = dungeonMeta[fight.boss];
-
-            const inTime =
-              fight.completionTime <= plus3
-                ? 3
-                : fight.completionTime <= plus2
-                ? 2
-                : fight.completionTime <= plus1
-                ? 1
-                : 0;
+            const inTime = isDungeonInTime({
+              boss: fight.boss,
+              completionTime: fight.completionTime,
+            });
 
             return {
               dps,
@@ -427,6 +442,7 @@ const getParses = async (
               reportID,
               fightID,
               affixes: fight.affixes ?? [],
+              timestamp: startTime,
             };
           })
         );
@@ -457,7 +473,7 @@ export async function lookup({
     role: rioData.active_spec_role,
   });
 
-  const idReportTuples = extractWclDungeonData(reports);
+  const idReportTuples = extractWclDungeonData(reports.slice(0, 10));
   const wclData = await getParses(idReportTuples, character.toLowerCase());
 
   return {

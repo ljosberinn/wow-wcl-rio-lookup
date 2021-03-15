@@ -74,7 +74,8 @@ export default function Character({
               <AlertIcon />
               <AlertTitle mr={2}>No logs found!</AlertTitle>
               <AlertDescription>
-                This character does not have any (public) Mythic+ Logs or WCL is rate-limiting. Try later again.
+                This character does not have any (public) Mythic+ Logs or WCL is
+                rate-limiting. Try later again.
               </AlertDescription>
             </Alert>
           ) : (

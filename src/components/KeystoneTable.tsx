@@ -1,4 +1,5 @@
 import { chakra, Table, Th, Tr, Link, Td } from "@chakra-ui/react";
+import { formatDistance } from "date-fns";
 import React, { memo } from "react";
 
 import type { SanitizedWclDataset } from "../utils/lookup";
@@ -10,6 +11,10 @@ const calcAvgTimedMetric = (
   metric: "dps" | "deaths" | "hps"
 ) => {
   const timedKeys = reports.filter((report) => report.inTime > 0);
+
+  if (timedKeys.length === 0) {
+    return 0;
+  }
 
   return Math.round(
     timedKeys.reduce((carry, report) => carry + report[metric], 0) /
@@ -27,6 +32,7 @@ export function KeystoneTable({ reports }: KeystoneTableProps): JSX.Element {
       <thead>
         <tr>
           <Th isNumeric>Key Level</Th>
+          <Th>Date</Th>
           <Th>Affixes</Th>
           <Th>Timed</Th>
           <Th isNumeric>DPS</Th>
@@ -44,7 +50,7 @@ export function KeystoneTable({ reports }: KeystoneTableProps): JSX.Element {
       </tbody>
       <tfoot>
         <Tr>
-          <Td colSpan={2} />
+          <Td colSpan={3} />
           <Td>
             {Math.round(
               (reports.filter((report) => report.inTime > 0).length /
@@ -77,10 +83,18 @@ const TableRow = memo(
     hps,
     dps,
     deaths,
+    timestamp = 0,
   }: TableRowProps) => {
+    const date = new Date(timestamp);
+
     return (
       <Tr opacity={inTime ? 1 : 0.4}>
         <Td isNumeric>{keyLevel}</Td>
+        <Td>
+          <time dateTime={date.toISOString()}>
+            {formatDistance(timestamp, new Date(), { addSuffix: true })}
+          </time>
+        </Td>
         <Td>
           <Affixes affixes={affixes} inTime={inTime} />
         </Td>

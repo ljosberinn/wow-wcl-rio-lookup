@@ -36,8 +36,8 @@ export function Settings({
               name="keystone-level"
               value={minKeystoneLevel}
               min={15}
-              onChange={handleMinKeystoneLevelChange}
-              disabled={hasNoLogs}
+              onChange={hasNoLogs ? undefined : handleMinKeystoneLevelChange}
+              isDisabled={hasNoLogs}
               size="sm"
             >
               <NumberInputField />
@@ -54,10 +54,10 @@ export function Settings({
 
           <FormControl id="only-timed" width="auto">
             <Checkbox
-              disabled={hasNoLogs}
               name="only-timed"
               checked={showOnlyTimedKeys}
-              onChange={toggleTimedKeysVisibility}
+              isDisabled={hasNoLogs}
+              onChange={hasNoLogs ? undefined : toggleTimedKeysVisibility}
             >
               Show only timed keys
             </Checkbox>

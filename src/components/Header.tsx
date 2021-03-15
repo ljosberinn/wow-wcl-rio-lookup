@@ -1,4 +1,15 @@
-import { chakra, Flex, Tag, Text, VStack } from "@chakra-ui/react";
+import {
+  chakra,
+  Flex,
+  Tag,
+  Text,
+  VStack,
+  Button,
+  Link,
+  Box,
+} from "@chakra-ui/react";
+import Head from "next/head";
+import NextLink from "next/link";
 
 import type { MaybeCharacter } from "../hooks/useCharacterParams";
 import type { CharacterData } from "../utils/lookup";
@@ -25,36 +36,54 @@ export function Header({
     tank: mythic_plus_scores.tank,
   };
 
+  const title = `${capitalize(character)} @ ${capitalize(
+    realm
+  )}-${region.toUpperCase()}`;
+
   return (
-    <Flex justifyContent="space-between">
-      <chakra.img loading="lazy" src={thumbnail_url} alt={character} />
+    <>
+      <Head>
+        <title>{title}</title>
+      </Head>
 
-      <Flex flexDirection="column" textAlign="center">
-        <Text fontSize="xl" fontWeight="bold">
-          {capitalize(character)} @ {capitalize(realm)}-{region.toUpperCase()}
-        </Text>
-        <Text>
-          {race} {active_spec_name} {className}
-        </Text>
+      <Box pb={2}>
+        <NextLink passHref href="/">
+          <Link as={Button} _hover={{ textDecoration: "none" }}>
+            Back
+          </Link>
+        </NextLink>
+      </Box>
+
+      <Flex justifyContent="space-between">
+        <chakra.img loading="lazy" src={thumbnail_url} alt={character} />
+
+        <Flex flexDirection="column" textAlign="center">
+          <Text fontSize="xl" fontWeight="bold">
+            {title}
+          </Text>
+          <Text>
+            {race} {active_spec_name} {className}
+          </Text>
+        </Flex>
+
+        <VStack alignItems="flex-end">
+          <Tag colorScheme="green">
+            Highest RIO: {mythic_plus_scores.all.toLocaleString()}
+          </Tag>
+          {Object.entries(relevantScores)
+            .filter(([, score]) => score !== 0)
+            .map(([role, score]) => (
+              <Tag
+                colorScheme={
+                  role === active_spec_role.toLowerCase() ? "teal" : undefined
+                }
+                key={role}
+              >
+                {capitalize(role)}: {score.toLocaleString()}
+              </Tag>
+            ))}
+        </VStack>
       </Flex>
-
-      <VStack alignItems="flex-end">
-        <Tag colorScheme="green">
-          Highest RIO:{mythic_plus_scores.all.toLocaleString()}
-        </Tag>
-        {Object.entries(relevantScores)
-          .filter(([, score]) => score !== 0)
-          .map(([role, score]) => (
-            <Tag
-              colorScheme={
-                role === active_spec_role.toLowerCase() ? "teal" : undefined
-              }
-              key={role}
-            >
-              {capitalize(role)}: {score.toLocaleString()}
-            </Tag>
-          ))}
-      </VStack>
-    </Flex>
+    </>
   );
 }

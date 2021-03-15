@@ -1,5 +1,6 @@
 import { ChakraProvider, chakra, extendTheme } from "@chakra-ui/react";
 import type { NextComponentType, NextPageContext } from "next";
+import Head from "next/head";
 import type { NextRouter } from "next/router";
 
 type AppProps = {
@@ -21,10 +22,15 @@ const theme = extendTheme({
 
 export default function App({ Component, pageProps }: AppProps): JSX.Element {
   return (
-    <ChakraProvider theme={theme}>
-      <chakra.main p={8}>
-        <Component {...pageProps} />
-      </chakra.main>
-    </ChakraProvider>
+    <>
+      <Head>
+        <title>RIO + WCL Lookup</title>
+      </Head>
+      <ChakraProvider theme={theme}>
+        <chakra.main p={8}>
+          <Component {...pageProps} />
+        </chakra.main>
+      </ChakraProvider>
+    </>
   );
 }
