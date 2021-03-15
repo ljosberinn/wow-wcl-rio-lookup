@@ -101,7 +101,7 @@ export default function Character({
 
       <footer>
         last sync: {new Date(lastSync).toLocaleString()} - next sync possible at{" "}
-        {new Date(lastSync + 8 * 60 * 60 * 1000).toLocaleString()}
+        {new Date(lastSync + 60 * 60 * 1000).toLocaleString()}
       </footer>
     </>
   );
