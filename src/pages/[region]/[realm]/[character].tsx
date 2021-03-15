@@ -44,6 +44,9 @@ export default function Character({
   }
 
   const hasNoLogs = data.wclData.every(([, report]) => report.length === 0);
+  const firstActiveTab = data.wclData.findIndex(
+    ([, report]) => report.length > 0
+  );
 
   return (
     <>
@@ -51,7 +54,7 @@ export default function Character({
 
       <Settings {...settings} hasNoLogs={hasNoLogs} />
 
-      <Tabs isLazy>
+      <Tabs isLazy defaultIndex={firstActiveTab}>
         <TabList>
           {dungeons.map((dungeon) => {
             const hasLogsForThisDungeon = data
@@ -62,6 +65,7 @@ export default function Character({
               <Tab
                 key={dungeon.id}
                 opacity={hasNoLogs || !hasLogsForThisDungeon ? 0.4 : 1}
+                isDisabled={!hasLogsForThisDungeon}
               >
                 {dungeon.slug}
               </Tab>
