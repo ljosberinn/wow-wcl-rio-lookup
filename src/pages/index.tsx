@@ -15,7 +15,7 @@ import React, { useState } from "react";
 import type { ChangeEvent, FormEvent } from "react";
 
 import { SearchHistory } from "../components/SearchHistory";
-import { addToStorageHistory, getHistory } from "../utils/localStorage";
+import { addToStorageHistory } from "../utils/localStorage";
 
 // raider.io/characters/ length === 21
 const URL_MINLENGTH = 21;
