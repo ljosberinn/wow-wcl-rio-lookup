@@ -52,12 +52,16 @@ export function KeystoneTable({ reports }: KeystoneTableProps): JSX.Element {
         <Tr>
           <Td colSpan={3} />
           <Td>
-            {Math.round(
-              (reports.filter((report) => report.inTime > 0).length /
-                reports.length) *
-                100
-            )}
-            % in time
+            {reports.length > 0 ? (
+              <>
+                {Math.round(
+                  (reports.filter((report) => report.inTime > 0).length /
+                    reports.length) *
+                    100
+                )}
+                % in time
+              </>
+            ) : null}
           </Td>
           <Td isNumeric>ø timed dps: {calcAvgTimedMetric(reports, "dps")}</Td>
           <Td isNumeric>ø timed hps: {calcAvgTimedMetric(reports, "hps")}</Td>
