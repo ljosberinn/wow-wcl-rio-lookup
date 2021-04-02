@@ -2290,10 +2290,10 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-config-galex@2.13.6:
-  version "2.13.6"
-  resolved "https://registry.yarnpkg.com/eslint-config-galex/-/eslint-config-galex-2.13.6.tgz#e208fd842387d68e3b3175f5ba5a9c4874102dd5"
-  integrity sha512-OdfzdJ7dWJPMrXfpn91/ZsDLgY+VLl6/TcdVQpesKkYZyEuVO/mUZhbFXiQriCkQXlXdqq4DDTpsAMl7SHzuYg==
+eslint-config-galex@2.13.7:
+  version "2.13.7"
+  resolved "https://registry.yarnpkg.com/eslint-config-galex/-/eslint-config-galex-2.13.7.tgz#7cfb54233d252735c66e02a0d38fa150e3d16353"
+  integrity sha512-8olXu9vd7/cbCZL0camLmcVQp7pvVCh58+dKPdngQMsoJJfzwMWO0RVsjYaKQLJCwBkqPKBEaBU+71kTk81YtQ==
   dependencies:
     "@babel/core" "7.13.14"
     "@babel/eslint-parser" "7.13.14"
