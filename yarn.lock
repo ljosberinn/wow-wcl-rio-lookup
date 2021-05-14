@@ -2409,10 +2409,10 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-config-galex@2.15.7:
-  version "2.15.7"
-  resolved "https://registry.yarnpkg.com/eslint-config-galex/-/eslint-config-galex-2.15.7.tgz#262415bd49662295ad3461f7ac780bdb7fd3365c"
-  integrity sha512-FaTIN1SxS0m+4XvDF5bTl37UXrYSXI4lTAZjQt4pELDvys+crbtIJ0L/OZ+aGWBoYDMb9KNYSMA8XexxIMWz/A==
+eslint-config-galex@2.15.8:
+  version "2.15.8"
+  resolved "https://registry.yarnpkg.com/eslint-config-galex/-/eslint-config-galex-2.15.8.tgz#71a30cf21a2b6ff33cadde420844367e19fc1768"
+  integrity sha512-3GySprxze+5tKg0u1Vn4JhlFzZqtgBYlPLgcovhYrCWFnwTiaoa+gt78cN5mRQvoOdJIJb/qm6WTPy0GtzrbeQ==
   dependencies:
     "@babel/core" "7.14.2"
     "@babel/eslint-parser" "7.14.2"
