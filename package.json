@@ -27,6 +27,6 @@
     "eslint": "7.29.0",
     "eslint-config-galex": "2.16.6",
     "eslint-config-next": "11.0.1",
-    "typescript": "4.3.4"
+    "typescript": "4.3.5"
   }
 }
