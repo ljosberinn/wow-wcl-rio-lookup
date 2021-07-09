@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@types/date-fns": "2.6.0",
-    "@types/node": "14.17.4",
+    "@types/node": "14.17.5",
     "@types/react": "17.0.14",
     "eslint": "7.30.0",
     "eslint-config-galex": "2.16.6",
