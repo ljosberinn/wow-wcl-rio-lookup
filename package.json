@@ -10,7 +10,7 @@
     "lint:types": "tsc --noEmit"
   },
   "dependencies": {
-    "@chakra-ui/react": "1.6.5",
+    "@chakra-ui/react": "1.6.6",
     "@emotion/react": "11.4.1",
     "@emotion/styled": "11.3.0",
     "date-fns": "2.23.0",
