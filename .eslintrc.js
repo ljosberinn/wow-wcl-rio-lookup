@@ -1,10 +1,8 @@
-const {
-  createConfig,
-  getDependencies,
-} = require("eslint-config-galex/src/createConfig");
+const { createConfig } = require("eslint-config-galex/dist/createConfig");
+const { getDependencies } = require("eslint-config-galex/dist/getDependencies");
 const {
   createJestOverride,
-} = require("eslint-config-galex/src/overrides/jest");
+} = require("eslint-config-galex/dist/overrides/jest");
 
 const customNextJsOverride = {
   rules: {
